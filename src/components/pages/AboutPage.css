@@ -1,0 +1,18 @@
+/**
+ * AboutPage.css
+ *
+ * @format
+ */
+
+@keyframes scroll-bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.moving-bg {
+  animation: scroll-bg 5s linear infinite;
+}
