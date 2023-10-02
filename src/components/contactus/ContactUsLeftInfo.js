@@ -7,26 +7,18 @@ import { contactImg } from "../../assets/index";
 const ContactUsLeftInfo = () => {
   return (
     <div className="w-[35%] h-full bg-blue-300 p-8 rounded-lg  gap-8 flex flex-col justify-center ">
-      <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contactImg}
-        alt="contactImg"
-      />
       <div className=" flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Hello</h3>
-        <p className="text-lg text-normal text-gray-300">Something</p>
-        <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          solutahic consequuntur eum repellendus ad
+        <h2 className="text-3xl font-bold text-[#EE7E24]">
+          Get in touch with us
+        </h2>
+        <p className="text-lg text-normal text-[#848484]">
+          Leverage agile frameworks to provide a robust synopsis for strategy
+          foster collaborative thinking to further the overall value.
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone:
-          <samp className="text-lightText">+8801307543654</samp>
-        </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
-          Email:
-          <samp className="text-lightText">nextzensogt@next.com</samp>
-        </p>
+
+        <div className="bg-green-200 w-2 h-5"></div>
+        <div className="bg-red-400d"></div>
+        <div className="bg-blue-400"></div>
       </div>
 
       <div className="flex flex-col gap-4">

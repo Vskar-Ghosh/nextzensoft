@@ -75,7 +75,7 @@ const ContactUs = () => {
       />
 
       <div className=" w-full ">
-        <div className=" w-full h-auto flex bg-yellow-300 justify-between">
+        <div className=" w-full h-auto flex  gap-5 justify-center">
           <ContactUsLeftInfo />
           <div className="w-[60%] h-full flex flex-col justify-between bg-green-400 p-4  gap-8">
             <form
@@ -98,7 +98,7 @@ const ContactUs = () => {
 
               <div className="w-full flex gap-10">
                 <div className="w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
                     Name
                   </p>
                   <input
@@ -113,7 +113,7 @@ const ContactUs = () => {
                 </div>
                 {/* nend of name div=> */}
                 <div className="w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
                     Phone
                   </p>
                   <input
@@ -130,7 +130,7 @@ const ContactUs = () => {
               {/* end of name and phone holder div div=> */}
               <div>
                 <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
                     Email
                   </p>
                   <input
@@ -147,7 +147,7 @@ const ContactUs = () => {
 
               <div>
                 <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
                     Subject
                   </p>
                   <input
@@ -164,7 +164,7 @@ const ContactUs = () => {
 
               <div>
                 <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
                     Message
                   </p>
                   <textarea

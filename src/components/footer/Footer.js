@@ -8,8 +8,7 @@ const Footer = () => {
   return (
     <section className="w-full py-3 p-10 items-center mt-5 bg-[#241468] ">
       <div className="w-full py-10 h-auto md:h-auto lg:h-auto border-b-[1px] border-black grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="w-full h-full md:col-span-2 lg:col-span-1">
-          <img className="w-32" src={Nextlogo} alt="Nextlogo" />
+        <div className="w-full h-full bg-blue-300 md:col-span-2 lg:col-span-1">
           <div className="flex gap-4">
             <span className="bannerIcon">
               <FaFacebookF />
