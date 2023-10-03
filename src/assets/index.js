@@ -11,6 +11,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import ibnuTest from "./images/testmonial/ibnul.jpeg";
 import sabbirTest from "./images/testmonial/sabbir.jpg";
 import salimTest from "./images/testmonial/salim.jpg";
+import vaskarTest from "./images/testmonial/vaskar.jpg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 // import videoOne from "./videos/vi1.mp4";
@@ -68,6 +69,7 @@ export {
   ibnuTest,
   sabbirTest,
   salimTest,
+  vaskarTest,
   tmSample,
   ibnul,
   kamal,
