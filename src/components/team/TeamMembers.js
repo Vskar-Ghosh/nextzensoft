@@ -20,14 +20,21 @@ export const TeamMembers = () => {
   ));
 
   return (
-    <section className="w-full py-10 p-10 bg-[#9400ff] ">
-      <Carousel
-        autoPlay={true}
-        autoPlaySpeed={2000}
-        infinite={true}
-        responsive={responsive}>
-        {developbr}
-      </Carousel>
+    <section className="w-full p-10 flex flex-col items-center justify-center ">
+      <h1 className=" text-6xl text-center p-10 ">
+        <span className=" text-[#ee7324]">Meet</span> Expert Team
+      </h1>
+      <div className=" w-[75%] p-5">
+        <Carousel
+          autoPlay={false}
+          autoPlaySpeed={2000}
+          infinite={true}
+          responsive={responsive}
+          className="flex"
+        >
+          {developbr}
+        </Carousel>
+      </div>
     </section>
   );
 };

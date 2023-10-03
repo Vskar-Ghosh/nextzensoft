@@ -4,41 +4,46 @@ import React from "react";
 
 import { salimTest } from "../../assets";
 import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const TeamMemberCard = (props) => {
   return (
-    <div className="w-full md:w-[350px] mr-5 ml-5 p-4 xl:px-12 h-auto md:h-[550px] bg-[#451952] xl:py-5 rounded-lg shadow-2xl flex flex-col bg-gradient-to-r from-[#ffffff] to-[#ffffff] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
-      <div className="w-25 h-25 overflow-hidden mx-6 rounded-full bg-center bg-no-repeat bg-cover">
-        <img
-          className="w-[100px] h-[100px] object-cover rounded-full group-hover:scale-110 duration-300 cursor-pointer mx-auto"
-          src={props.image}
-          alt=""
-        />
+    <div className=" w-60 m-2 h-80 bg-[#193e65] pb-2 relative">
+      <div className=" absolute top-40 right-0 z-10 h-10 w-32 bg-gradient-to-r from-[#e39f3e] to-[#f0da37] flex items-center justify-around text-xl text-black">
+        <a href="#">
+          <FaLinkedin />
+        </a>
+        <a href="#">
+          <BsGithub />
+        </a>
+        <a href="#">
+          <FaFacebook />
+        </a>
+        <a href="#">
+          <FaInstagram />
+        </a>
       </div>
-      <div className="w-full mt-5 flex flex-col gap-10">
+      <div className=" h-48 bg-white  flex flex-col items-center justify-center">
+        <img className="w-full h-full" src={props.image} alt="" />
+      </div>
+      <div className=" h-44 p-4 text-white relative ">
         <div>
-          <div className="flex items-center justify-between">
-            <h2 className="text-xl md:text-2xl uppercase text-designColor font-normal">
-              {props.name}
-            </h2>
+          <div className=" text-xl font-bold">
+            <h2 className="">{props.name}</h2>
           </div>
-          <div className=""></div>
-          <h3 className="mt-3 border-b-[1px] border-orange-500">
-            Full Stack Software Engineer
-          </h3>
-          <p className="text-sm md:text-base tracking-wide mt-3 duration-300">
-            {props.edu}
-          </p>
-          {/* <div className="w-full h-[1.5px] bg-white"></div> */}
+          <div className=" relative p-1">
+            <h3 className=" text-xs pb-1">Full Stack Software Engineer</h3>
+            {/* <p className=" text-xs pb-1">{props.edu}</p> */}
+            {/* <div className="w-full h-[1.5px] bg-white"></div> */}
 
-          <p className="text-sm md:text-base tracking-wide mt-3 duration-300">
-            {props.experience}
-          </p>
-          <p className="text-sm md:text-base tracking-wide mt-3 duration-300">
-            Java, C#, JavaCsrip, Flutter, React, NodeJs, MySQL, MongoDB,
-            TailwindCss
-          </p>
+            <p className=" text-xs pb-1">{props.experience}</p>
+            {/* <p className=" text-xs pb-1">
+              Java, C#, JavaCsrip, Flutter, React, NodeJs, MySQL, MongoDB,
+              TailwindCss
+            </p> */}
+          </div>
         </div>
       </div>
     </div>

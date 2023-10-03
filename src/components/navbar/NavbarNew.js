@@ -28,11 +28,11 @@ const NavbarNew = () => {
   };
 
   return (
-    <div className="w-full sticky top-0 z-50 p-2 bg-bodyColor mx-auto flex justify-between items-center font-adventPro border-b-[1px] border-b-gray-600">
+    <div className="w-full sticky top-0 z-50 p-2 px-5 bg-bodyColor mx-auto flex justify-between items-center font-adventPro shadow-md">
       <div className="flex items-center">
         <RouterLink to="/">
           <img
-            className="object-contain h-20 w-30 rounded-full"
+            className="object-contain h-16 w-30 rounded-full"
             src={Nextlogo}
             alt="Logo"
           />
@@ -42,7 +42,8 @@ const NavbarNew = () => {
       <div className="lg:hidden">
         <button
           className="text-gray-400 hover:text-designColor focus:outline-offset-1"
-          onClick={toggleMenu}>
+          onClick={toggleMenu}
+        >
           <FaBars size={24} />
         </button>
       </div>
@@ -56,7 +57,8 @@ const NavbarNew = () => {
                 className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                   activePage === "home" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("home")}>
+                onClick={() => handleMenuClick("home")}
+              >
                 Home
               </NavLink>
             </li>
@@ -66,7 +68,8 @@ const NavbarNew = () => {
                 className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                   activePage === "about" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("about")}>
+                onClick={() => handleMenuClick("about")}
+              >
                 About
               </NavLink>
             </li>
@@ -76,7 +79,8 @@ const NavbarNew = () => {
                 className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                   activePage === "services" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("services")}>
+                onClick={() => handleMenuClick("services")}
+              >
                 Services
               </NavLink>
             </li>
@@ -86,7 +90,8 @@ const NavbarNew = () => {
                 className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                   activePage === "solutions" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("solutions")}>
+                onClick={() => handleMenuClick("solutions")}
+              >
                 Solutions
               </NavLink>
             </li>
@@ -96,7 +101,8 @@ const NavbarNew = () => {
                 className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                   activePage === "contact" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("contact")}>
+                onClick={() => handleMenuClick("contact")}
+              >
                 Industries
               </NavLink>
             </li>
@@ -107,8 +113,9 @@ const NavbarNew = () => {
                 className={`text-xl text-[#1C1F35] hover:text-designColor ${
                   activePage === "contact" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("contact")}>
-                <button className="bg-[#193E65] text-white px-4 py-2 rounded-full hover:bg-[#EE7E24]">
+                onClick={() => handleMenuClick("contact")}
+              >
+                <button className="bg-[#EE7E24] text-white px-4 py-2 rounded-full hover:bg-[#193E65] duration-1000">
                   Get In Toutch{" "}
                 </button>
               </NavLink>
@@ -125,7 +132,8 @@ const NavbarNew = () => {
               className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                 activePage === "home" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("home")}>
+              onClick={() => handleMenuClick("home")}
+            >
               Home
             </NavLink>
           </li>
@@ -135,7 +143,8 @@ const NavbarNew = () => {
               className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                 activePage === "about" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("about")}>
+              onClick={() => handleMenuClick("about")}
+            >
               About Us
             </NavLink>
           </li>
@@ -145,7 +154,8 @@ const NavbarNew = () => {
               className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                 activePage === "services" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("services")}>
+              onClick={() => handleMenuClick("services")}
+            >
               Services
             </NavLink>
           </li>
@@ -155,7 +165,8 @@ const NavbarNew = () => {
               className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                 activePage === "solutions" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("solutions")}>
+              onClick={() => handleMenuClick("solutions")}
+            >
               Solutions
             </NavLink>
           </li>
@@ -165,7 +176,8 @@ const NavbarNew = () => {
               className={`text-xl  text-[#1C1F35] hover:text-designColor ${
                 activePage === "contact" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("contact")}>
+              onClick={() => handleMenuClick("contact")}
+            >
               Industries
             </NavLink>
           </li>
@@ -175,8 +187,9 @@ const NavbarNew = () => {
               className={`text-xl text-[#1C1F35] hover:text-designColor ${
                 activePage === "contact" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("contact")}>
-              <button className="bg-[#193E65] text-white px-4 py-2 rounded-full hover:bg-[#EE7E24]">
+              onClick={() => handleMenuClick("contact")}
+            >
+              <button className="bg-[#EE7E24] text-white px-4 py-2 rounded-full hover:bg-[#193E65] duration-500">
                 {" "}
                 Get In Toutch{" "}
               </button>

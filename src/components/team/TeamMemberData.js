@@ -1,6 +1,7 @@
 /** @format */
 import {
   salimTest,
+  vaskarTest,
   ibnuTest,
   sabbirTest,
   ibnul,
@@ -9,8 +10,8 @@ import {
 export const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 1024 },
-    items: 5,
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
     slidesToSlide: 2,
   },
   desktop: {
@@ -35,17 +36,27 @@ export const developertData = [
     edu: " Limkokwing University of Creative Technology(Malaysia)",
     deg: "Full Stack Software Engineer",
     experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
+      " Experienced full-stack developer with two plus years of experience in the industry. ",
     tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
   },
   {
-    id: 1,
+    id: 2,
     image: sabbirTest,
     name: "Sabbir Rahman",
     edu: "Independent University, Bangladesh",
     deg: "Product Manager",
     experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
+      " Experienced full-stack developer with two plus years of experience in the industry. ",
+    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
+  },
+  {
+    id: 3,
+    image: vaskarTest,
+    name: "Vaskar Ghosh",
+    edu: "Varendra University, Bangladesh",
+    deg: "Developer",
+    experience:
+      " Experienced full-stack developer with one plus years of experience in the industry. ",
     tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
   },
   {
@@ -55,47 +66,7 @@ export const developertData = [
     edu: "Independent University, Bangladesh",
     deg: "App developer",
     experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
-  },
-  {
-    id: 1,
-    image: kamal,
-    name: "Md Kamal Hossain",
-    edu: " Limkokwing University of Creative Technology(Malaysia)",
-    deg: "Full Stack Software Engineer",
-    experience:
-      " Experienced full-stack developer with FIVE plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
-  },
-  {
-    id: 1,
-    image: salimTest,
-    name: "Md Salim Hossain",
-    edu: " Limkokwing University of Creative Technology(Malaysia)",
-    deg: "Full Stack Software Engineer",
-    experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
-  },
-  {
-    id: 1,
-    image: salimTest,
-    name: "Md Salim Hossain",
-    edu: " Limkokwing University of Creative Technology(Malaysia)",
-    deg: "Full Stack Software Engineer",
-    experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
-  },
-  {
-    id: 1,
-    image: salimTest,
-    name: "Md Salim Hossain",
-    edu: " Limkokwing University of Creative Technology(Malaysia)",
-    deg: "Full Stack Software Engineer",
-    experience:
-      " Experienced full-stack developer with two plus years of experience in the industry.Mostly engaged in developing cross platfrom using  Flutter, for fron-end React js and for back-end using Node js.  ",
+      " Experienced full-stack developer with two plus years of experience in the industry. ",
     tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
   },
 ];
