@@ -10,12 +10,13 @@ module.exports = {
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
-        // abelProFont:[]
+        abelPro: ["Abel", "sans-serif"],
         adventPro: ["Advent Pro", "sans"],
       },
       colors: {
         // bodyColor: "#212428",
         bodyColor: "#ffffff",
+        coralred: "#FF6452",
 
         //=> this is for black backgrounds..
         // lightText: "#c4cfde",
@@ -26,6 +27,11 @@ module.exports = {
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+      },
+      backgroundImage: {
+        aboutHeroBg: "url('assets/imagesNew/aboutbg.svg')",
+        customerWorldWide: "url('assets/imagesNew/customer_worldwide.svg')",
+        card: "url('assets/images/thumbnail-background.svg')",
       },
     },
   },

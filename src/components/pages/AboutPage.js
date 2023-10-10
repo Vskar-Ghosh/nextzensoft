@@ -1,70 +1,52 @@
 /** @format */
 
-import React, { useRef, useEffect } from "react";
-import Banner from "../banner/Banner.js";
+import React from "react";
 import ContactUs from "../contactus/ContactUs.js";
 import Features from "../features/Features.js";
+import Wave from "react-wavify";
 import MissionVissionComponent from "../about/missionVission/MissionVissionComponent.js";
-// import { aboutPageVideo } from "../../assets/index.js";
-import { aboutHeroImage, aboutImagehomePage2 } from "../../assets/index.js";
-import { software1, development } from "../../assets/index.js";
 import { motion } from "framer-motion";
 import IndustryWeServe from "../about/IndustryWeServe.js";
 import Technologies from "./../technologyWeUsed/Technologies.js";
+import WhoWeAre from "../about/WhoWeAre.js";
+import WhyUs from "../about/WhyUs.js";
 
 const AboutPage = () => {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.3;
-    }
-  }, []);
-
   return (
-    <section className="w-full py-0 items-center">
-      <div className="w-full md:h-[500px] flex flex-col md:flex-row p-5 md:p-10 relative moving-bg">
-        {/* <video
-          ref={videoRef}
-          className="absolute inset-0 w-full h-full object-cover z-0 opacity-3"
-          src={aboutPageVideo} // Replace this with the URL or source of your video
-          autoPlay
-          loop
-          muted
-          playsInline
-        /> */}
-
-        {/* Content Container */}
-        <div className="w-full md:w-1/2 flex items-center justify-center z-2 relative">
-          {/* Text Content */}
-          <div className="bg-black bg-opacity-70 p-4 md:p-6 rounded-md shadow-md">
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-red-500">
-              {" "}
-              We are From Another Space to Automate the World
-            </h1>
-            <p className="text-lg md:text-2xl text-white mt-2">
-              Nextzensoft works in multiple areas including software
-              development, website development, customized software solution,
-              mobile app development, theme design, and development. Our dream
-              is to continue your journey with success.
+    <section className="w-full justify-center py-0 ">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-aboutHeroBg mb-10">
+        <div className="w-full   relative">
+          <Wave
+            fill="#C1250399"
+            fillOpacity=".7"
+            paused={false}
+            style={{ display: "flex" }}
+            options={{
+              height: 30,
+              amplitude: 40,
+              speed: 0.3,
+              points: 3,
+            }}
+            className="h-[50vh]"
+          />
+          <div className="absolute top-0 left-0 w-1/2 h-full flex flex-col items-start justify-center ml-20 text-[#FFFFFF]">
+            <h1 className="text-4xl font-abelPro font-bold">About Us</h1>
+            <p className="text-lg font-abelPro text-[#FFFFFF]">
+              Reduce time-to-market with our fast & agile development process.
+              The result is a functional version of your product with all core
+              features ready to test with users.
             </p>
           </div>
         </div>
-
-        {/* Image */}
-        <div className="w-full md:w-1/2 flex items-center justify-center z-2 relative mt-4 md:mt-0">
-          <img
-            className="w-[200px] md:w-[300px] h-[200px] md:h-[300px] rounded-full object-cover"
-            src={development} // Replace with the URL or source of your image
-            alt="Image Description"
-          />
-        </div>
       </div>
-      {/* end of heading component */}
+      {/* end of hero section component */}
+
+      <WhoWeAre />
+      {/* end of who we are */}
       <MissionVissionComponent />
+      <WhyUs />
       <IndustryWeServe />
       <Technologies />
-
       <div className="mx-2 md:mx-5">
         <Features />
       </div>

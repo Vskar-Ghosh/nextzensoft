@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import ContactUsTitle from "../layouts/ContactUsTitle.js";
 import ContactUsLeftInfo from "./ContactUsLeftInfo.js";
 import axios from "axios";
-// import { contactImg } from "../../assets/index.js";
-// import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const ContactUs = () => {
   const [userName, setUsername] = useState("");
@@ -16,15 +14,11 @@ const ContactUs = () => {
   const [errMessage, setErroMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
-  // ========== Email Validation start here ==============
   const emailValidation = () => {
     return String(email)
       .toLocaleLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
-  // ========== Email Validation end here ================
-
-  // Send Button Handeling =>
 
   const handleSend = (e) => {
     e.preventDefault();
@@ -35,14 +29,14 @@ const ContactUs = () => {
     } else if (email === "") {
       setErroMessage("Email  Is Required");
     } else if (!emailValidation(email)) {
-      setErroMessage("Please Give a Vaild Email");
+      setErroMessage("Please Give a Valid Email");
     } else if (subject === "") {
       setErroMessage("Please Provide a Subject");
     } else if (message === "") {
       setErroMessage("Please Type A Message");
     } else {
       setSuccessMessage(
-        `Thank You {userName} ,  Your Messages has been sent Successfully`
+        `Thank You ${userName}, Your Messages has been sent Successfully`
       );
 
       setUsername("");
@@ -59,31 +53,21 @@ const ContactUs = () => {
         messages: message,
       });
     }
-
-    // else {
-    //   setUsername(" ");
-    // }
   };
-  // End of Button Handeling =>
 
   return (
-    <section className="w-full  py-20  items-center border-b-[1px]">
-      <ContactUsTitle
-        className="mb-5"
-        title="Features"
-        description="What We Do ...."
-      />
+    <section className="w-full py-10 items-center ">
+      <ContactUsTitle />
 
-      <div className=" w-full ">
-        <div className=" w-full h-auto flex  gap-5 justify-center">
+      <div className="w-full">
+        <div className="flex flex-col lg:flex-row gap-4 justify-center items-center">
           <ContactUsLeftInfo />
-          <div className="w-[60%] h-full flex flex-col justify-between bg-green-400 p-4  gap-8">
+          <div className="w-full lg:w-[50%] h-full flex flex-col justify-between bg-[#f4f4f4] p-4 lg:p-2 gap-4">
             <form
               id="form"
               action="https://getform.io/f/8a7fabd3-feab-4654-93dc-aaf0848a1f49"
               method="POST"
-              className="w-full flex flex-col gap-6 py-2">
-              {/* taking Error message to the from==> */}
+              className="w-full flex flex-col gap-4 py-2">
               {errMessage && (
                 <p className="py-3 bg-white shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {errMessage}
@@ -91,29 +75,29 @@ const ContactUs = () => {
               )}
 
               {successMessage && (
-                <p className="py-3 bg-white shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-1 bg-white shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
                   {successMessage}
                 </p>
               )}
 
-              <div className="w-full flex gap-10">
-                <div className="w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
+              <div className="flex flex-col lg:flex-row gap-4">
+                <div className="w-full lg:w-1/2 flex flex-col gap-2">
+                  <p className="text-base lg:text-lg font-abelPro font-bold text-coralred uppercase tracking-wide">
                     Name
                   </p>
                   <input
                     onChange={(e) => setUsername(e.target.value)}
                     value={userName}
-                    // below here we are handelin css funtionalliy
                     className={`${
                       errMessage === "User Name Is Required" &&
                       "outline-designColor"
                     } contactInput`}
-                    type="text"></input>
+                    type="text"
+                  />
                 </div>
-                {/* nend of name div=> */}
-                <div className="w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
+
+                <div className="w-full lg:w-1/2 flex flex-col gap-2">
+                  <p className="text-base lg:text-lg font-abelPro font-bold text-coralred uppercase tracking-wide">
                     Phone
                   </p>
                   <input
@@ -123,78 +107,62 @@ const ContactUs = () => {
                       errMessage === "Phone Number Is Required" &&
                       "outline-designColor"
                     } contactInput`}
-                    type="text"></input>
-                </div>
-                {/* end of phone number div =>  */}
-              </div>
-              {/* end of name and phone holder div div=> */}
-              <div>
-                <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
-                    Email
-                  </p>
-                  <input
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                    className={`${
-                      errMessage === "Email  Is Required" &&
-                      "outline-designColor"
-                    } contactInput`}
-                    type="email"></input>
+                    type="text"
+                  />
                 </div>
               </div>
-              {/* end of email div=> */}
 
-              <div>
-                <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
-                    Subject
-                  </p>
-                  <input
-                    onChange={(e) => setSubject(e.target.value)}
-                    value={subject}
-                    className={`${
-                      errMessage === "Please Provide a Subject" &&
-                      "outline-designColor"
-                    } contactInput`}
-                    type="text"></input>
-                </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-base lg:text-lg font-abelPro font-bold text-coralred uppercase tracking-wide">
+                  Email
+                </p>
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  className={`${
+                    errMessage === "Email  Is Required" && "outline-designColor"
+                  } contactInput`}
+                  type="email"
+                />
               </div>
-              {/* end of subject div=> */}
 
-              <div>
-                <div className="w-full flex flex-col gap-4">
-                  <p className="text-sm text-[#EE7E24] uppercase tracking-wide">
-                    Message
-                  </p>
-                  <textarea
-                    onChange={(e) => setMessage(e.target.value)}
-                    value={message}
-                    className={`${
-                      errMessage === "Please Type A Message" &&
-                      "outline-designColor"
-                    } contactTextArea`}
-                    cols="30"
-                    rows="8"></textarea>
-                </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-base lg:text-lg font-abelPro font-bold text-coralred uppercase tracking-wide">
+                  Subject
+                </p>
+                <input
+                  onChange={(e) => setSubject(e.target.value)}
+                  value={subject}
+                  className={`${
+                    errMessage === "Please Provide a Subject" &&
+                    "outline-designColor"
+                  } contactInput`}
+                  type="text"
+                />
               </div>
-              {/* end of message textArea div=> */}
+
+              <div className="flex flex-col gap-2">
+                <p className="text-base lg:text-lg font-abelPro font-bold text-[#EE7E24] uppercase tracking-wide">
+                  Message
+                </p>
+                <textarea
+                  onChange={(e) => setMessage(e.target.value)}
+                  value={message}
+                  className={`${
+                    errMessage === "Please Type A Message" &&
+                    "outline-designColor"
+                  } contactTextArea`}
+                  cols="20"
+                  rows="5"></textarea>
+              </div>
+
               <div className="w-full">
-                <button onClick={handleSend} className="sendMessageButton">
+                <button
+                  onClick={handleSend}
+                  className="sendMessageButton bg-coralred text-white py-2 px-4 rounded-lg hover:bg-red-600 focus:outline-none focus:ring focus:border-blue-300">
                   Send Message
                 </button>
               </div>
-              {errMessage && (
-                <p className="py-3 bg-white shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
-                  {errMessage}
-                </p>
-              )}
-
-              {successMessage && (
-                <p className="py-3 bg-white shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
-                  {successMessage}
-                </p>
-              )}
             </form>
           </div>
         </div>
