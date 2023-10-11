@@ -22,7 +22,7 @@ const HomePageHero = () => {
               <Wave
                 className="anim-wave"
                 fill="#EE7E24"
-                fill-opacity=".7"
+                fillOpacity=".7"
                 paused={false}
                 style={{ display: "flex" }}
                 options={{

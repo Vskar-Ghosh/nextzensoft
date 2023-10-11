@@ -14,6 +14,9 @@ import AboutUsCompo from "../about/AboutUsCompo.js";
 import SatCompo from "../HomePageCompnents.js/SatCompo.js";
 import WhatWeDo from "../HomePageCompnents.js/WhatWeDo.js";
 import HomePageHero from "../HomePageCompnents.js/HomePageHero.js";
+import CustomersWorldwide from "../HomePageCompnents.js/CustomersWorldwide.js";
+import TechnologyWeUse from "../HomePageCompnents.js/TechnologyWeUse.js";
+import OurServices from "../HomePageCompnents.js/OurServices.js";
 
 const HomePage = () => {
   return (
@@ -22,8 +25,12 @@ const HomePage = () => {
       <HomePageHero />
       <SatCompo />
       <WhatWeDo />
+      <OurServices />
       <ClientReview />
+      <TechnologyWeUse />
       <TeamMembers />
+      <CustomersWorldwide />
+      <ContactUs />
     </section>
   );
 };

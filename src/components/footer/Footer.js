@@ -8,7 +8,31 @@ const Footer = () => {
   return (
     <section className="w-full py-3 p-10 items-center mt-5 bg-[#241468] ">
       <div className="w-full py-10 h-auto md:h-auto lg:h-auto border-b-[1px] border-black grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div className="w-full h-full bg-blue-300 md:col-span-2 lg:col-span-1">
+        <div className="w-full h-full md:col-span-2 lg:col-span-1">
+          <h2 className="text-xl md:text-2xl uppercase text-designColor tracking-wider">
+            Offices
+          </h2>
+          <div className="w-full h-[0.5px] bg-black mt-2 mb-2"></div>
+
+          <div className="p-2 mt-2 mb-2">
+            <h2 className="font-abelPro font-bold  hover:text-white">
+              1/B Thamina Bhaban, Mirpur 1, Dhaka 1216, Bangladesh
+            </h2>
+            <h2 className="font-abelPro font-bold  hover:text-white ">
+              Cell: 008801991-730274
+            </h2>
+          </div>
+
+          <div className="p-2 mt-2 mb-2">
+            <h2 className="font-abelPro font-bold  hover:text-white ">
+              Albuquerque Tower, 1309 4th St SW, 87102, New York, US
+            </h2>
+            <h2 className="font-abelPro font-bold  hover:text-white ">
+              Cell: +16629762448
+            </h2>
+          </div>
+
+          {/*  */}
           <div className="flex gap-4">
             <span className="bannerIcon">
               <FaFacebookF />
@@ -20,6 +44,7 @@ const Footer = () => {
               <FaLinkedinIn />
             </span>
           </div>
+          {/* end => */}
         </div>
         {/* end of logo side => */}
         <div className="w-full h-full md:col-span-2 lg:col-span-1">
@@ -39,13 +64,19 @@ const Footer = () => {
 
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Portfolio
+                Services
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Services
+                Solutions
+                <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+              </span>
+            </li>
+            <li>
+              <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
+                Industries
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
@@ -55,29 +86,23 @@ const Footer = () => {
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
-            <li>
-              <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Contact
-                <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-              </span>
-            </li>
           </ul>
         </div>
         {/* End Of Quick */}
         <div className="w-full h-full md:col-span-2 lg:col-span-1">
           <h3 className="text-xl md:text-2xl uppercase text-designColor tracking-wider">
-            RESOURCES
+            Terms
           </h3>
           <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Authentication
+                Terms of use
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                System Status
+                Privacy Policy
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
@@ -89,13 +114,13 @@ const Footer = () => {
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Pricing
+                Cookies Policy
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Over Right
+                FAQ's
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
@@ -104,36 +129,36 @@ const Footer = () => {
         {/* end of RESOURCES */}
         <div className="w-full h-full md:col-span-2 lg:col-span-1">
           <h3 className="text-xl md:text-2xl uppercase text-designColor tracking-wider">
-            DEVELOPERS
+            Technologies
           </h3>
           <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Documentation
+                Java
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Authentication
+                JavaScript
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                API Reference
+                Flutter
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Support
+                C#
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
             <li>
               <span className="w-full text-lg md:text-xl relative hover:text-designColor duration-300 group cursor-pointer">
-                Open Source
+                Blockchain
                 <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>

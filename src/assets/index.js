@@ -54,6 +54,17 @@ import experienceIcon from "../assets/iconsnew/experienceIcon.png";
 import whatWeDoWave from "../assets/imagesNew/whatWeDo.png";
 import laptop1 from "../assets/imagesNew/Laptop1.png";
 import buttonImage from "../assets/imagesNew/getIntoutch.png";
+// aboutPage=> vission Image
+import vissionImg from "../assets/imagesNew/vissionImg.png";
+import missionImg from "../assets/imagesNew/missionImg.png";
+
+//teschnology
+import nodeJs from "../assets/imagesNew/nodejs.png";
+
+// icon new
+import c_call from "../assets/iconsnew/c_call.png";
+import c_email from "../assets/iconsnew/c_email.png";
+import c_clock from "../assets/iconsnew/c_clock.png";
 
 export {
   Nextlogo,
@@ -105,9 +116,19 @@ export {
   stategyIcon,
   technologyIcon,
   experienceIcon,
+  //=>
+  c_call,
+  c_email,
+  c_clock,
+  //=> technology
+  nodeJs,
   // what we do image
   whatWeDoWave,
   laptop1,
+  // about page
+  vissionImg,
+  missionImg,
+
   // button image
   buttonImage,
 };
