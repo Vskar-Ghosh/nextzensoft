@@ -11,8 +11,10 @@ const HomePageHero = () => {
         <div className="hero-section">
           <div className="hero-main">
             <div className="hero-text">
-              <h1>NextGen Soft - Your trusted Software Development Partner</h1>
-              <p className="hero-text-p">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+                NextGen Soft - Your trusted Software Development Partner
+              </h1>
+              <p className="text-sm md:text-base lg:text-lg xl:text-xl hero-text-p">
                 We're here to accompany you all along the road from an MVP to
                 asuccssfull product stage or wherever your business goals and
                 ambtions will take you.

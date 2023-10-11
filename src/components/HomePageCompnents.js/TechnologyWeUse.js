@@ -5,7 +5,7 @@ import { nodeJs } from "../../assets/index";
 
 const TechnologyWeUse = () => {
   return (
-    <section className="w-full py-10 items-center">
+    <section className="w-full py-10 relative overflow-hidden">
       <div className="w-full flex flex-col ">
         <div className="p-5 flex justify-center">
           <h1 className="text-6xl text-coralred font-abelPro font-bold leading-normal">

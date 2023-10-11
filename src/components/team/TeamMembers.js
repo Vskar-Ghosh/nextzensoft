@@ -30,7 +30,7 @@ export const TeamMembers = () => {
           autoPlaySpeed={2000}
           infinite={true}
           responsive={responsive}
-          className="flex"
+          className=" flex justify-between"
         >
           {developbr}
         </Carousel>

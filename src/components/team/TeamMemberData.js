@@ -2,10 +2,8 @@
 import {
   salimTest,
   vaskarTest,
-  ibnuTest,
   sabbirTest,
   ibnul,
-  kamal,
 } from "../../assets/index.js";
 export const responsive = {
   superLargeDesktop: {

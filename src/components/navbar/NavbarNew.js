@@ -115,7 +115,7 @@ const NavbarNew = () => {
                 }`}
                 onClick={() => handleMenuClick("contact")}
               >
-                <button className="bg-[#EE7E24] text-white px-4 py-2 rounded-full hover:bg-[#193E65] duration-1000">
+                <button className="bg-[#193E65] text-white px-4 py-2 rounded-full hover:bg-[#EE7E24] duration-1000">
                   Get In Toutch{" "}
                 </button>
               </NavLink>
