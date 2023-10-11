@@ -34,7 +34,7 @@
   left: 15%;
   color: white;
   z-index: 2;
-  width: 60%;
+  width: 40%;
 }
 .hero-text h1 {
   font-size: 2rem;
@@ -42,7 +42,7 @@
   font-weight: 900;
 }
 .hero-text-p {
-  width: 50%;
+  width: 30vw;
 }
 .anim-wave {
   position: absolute;
@@ -53,5 +53,20 @@
 @media (max-width: 900px) {
   .hero-section {
     height: 50vh;
+  }
+  .hero-text {
+    top: 40%;
+    left: 15%;
+    width: 70%;
+  }
+}
+@media (max-width: 1160px) {
+  .hero-section {
+    height: 70vh;
+  }
+  .hero-text {
+    top: 60%;
+    left: 15%;
+    width: 60%;
   }
 }
