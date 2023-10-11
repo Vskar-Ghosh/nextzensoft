@@ -2,7 +2,6 @@
 
 import React from "react";
 
-import { salimTest } from "../../assets";
 import { BsGithub } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,7 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 const TeamMemberCard = (props) => {
   return (
     <div className=" w-60 m-2 h-80 bg-[#193e65] pb-2 relative">
-      <div className=" absolute top-40 right-0 z-10 h-10 w-32 bg-gradient-to-r from-[#e39f3e] to-[#f0da37] flex items-center justify-around text-xl text-black">
+      <div className="  absolute top-40 right-0 z-10 h-10 w-32 bg-gradient-to-r from-[#e39f3e] to-[#f0da37] flex items-center justify-around text-xl text-black">
         <a href="#">
           <FaLinkedin />
         </a>
