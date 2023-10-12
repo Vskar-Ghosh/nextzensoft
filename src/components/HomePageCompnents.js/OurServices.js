@@ -28,7 +28,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
               Result-oriented
             </h2>
-            <p className="font-abelPro text-[#999999]">
+            <p className="font-abelPro text-[#999999] p-3">
               For our company, the only indicator of the project’s success is
               the achievement of the goals and objectives set by the client. Due
               to high-quality project management and a team of IT talents, we
@@ -48,7 +48,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
               Flexible
             </h2>
-            <p className="font-abelPro text-[#999999]">
+            <p className="font-abelPro text-[#999999] p-3">
               Our team already numbers 1500+ highly qualified IT professionals.
               It allows us to quickly adapt to the needs of our clients. We
               provide rapid team ramp-up and easily scale it up and down
@@ -69,7 +69,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
               Transparent
             </h2>
-            <p className="font-abelPro text-[#999999]">
+            <p className="font-abelPro text-[#999999] p-3">
               Our cooperation with clients is always open and honest. We ensure
               regular communication, an established daily reporting system, and
               tracking tools according to the client’s preferences. Thus, our
@@ -111,7 +111,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
               Top Quality Engineers
             </h2>
-            <p className="font-abelPro text-[#999999]">
+            <p className="font-abelPro text-[#999999] p-3">
               A decade of experience in custom software development. We are
               focused on bringing value to our customers and on helping them
               succeed in the marketplace.
@@ -131,7 +131,7 @@ const OurServices = () => {
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 hover:text-coralred ">
               End to End Management
             </h2>
-            <p className="font-abelPro text-[#999999]">
+            <p className="font-abelPro text-[#999999] p-3">
               A decade of experience in custom software development. We are
               focused on bringing value to our customers and on helping them
               succeed in the marketplace.
