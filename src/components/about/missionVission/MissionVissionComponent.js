@@ -100,7 +100,7 @@ const MissionVissionComponent = () => {
           <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
             Our{" "}
             <span className="text-5xl text-[#193E65] font-abelPro font-bold leading-normal">
-              Vission
+              Values
             </span>
           </h1>
           <p className="tex-[#999999] font-abelPro leading-normal">

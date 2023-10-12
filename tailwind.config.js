@@ -31,6 +31,9 @@ module.exports = {
       backgroundImage: {
         aboutHeroBg: "url('assets/imagesNew/aboutbg.svg')",
         customerWorldWide: "url('assets/imagesNew/customer_worldwide.svg')",
+        servicesBg: "url('assets/imagesNew/servicebg.svg')",
+        customSoftDevBg: "url('assets/imagesNew/cusSoftDevBg.svg')",
+        workProcessBg: "url('assets/imagesNew/workProcessBg.svg')",
         card: "url('assets/images/thumbnail-background.svg')",
       },
     },

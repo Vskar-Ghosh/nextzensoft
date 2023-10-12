@@ -31,10 +31,18 @@ const AboutPage = () => {
           />
           <div className="absolute top-0 left-0 w-1/2 h-full flex flex-col items-start justify-center ml-20 text-[#FFFFFF]">
             <h1 className="text-4xl font-abelPro font-bold">About Us</h1>
-            <p className="text-lg font-abelPro text-[#FFFFFF]">
-              Reduce time-to-market with our fast & agile development process.
-              The result is a functional version of your product with all core
-              features ready to test with users.
+            <p className="font-abelPro text-[#FFFFFF] leading-normal">
+              Welcome to Nextzensoft, your trusted partner for cutting-edge
+              software development solutions. With a passion for innovation and
+              a team of highly skilled developers, we specialize in crafting
+              custom software tailored to your unique needs. Whether you're
+              looking to streamline your business processes, enhance user
+              experiences, or drive digital transformation, we have the
+              expertise to bring your vision to life. Our commitment to quality,
+              efficiency, and excellence ensures that we deliver solutions that
+              empower your business for success in today's digital landscape.
+              Discover the possibilities with [Your Company Name] and embark on
+              a journey of software innovation.
             </p>
           </div>
         </div>

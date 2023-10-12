@@ -26,13 +26,13 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
-              Result-oriented
+              Software Development
             </h2>
             <p className="font-abelPro text-[#999999]">
-              For our company, the only indicator of the project’s success is
-              the achievement of the goals and objectives set by the client. Due
-              to high-quality project management and a team of IT talents, we
-              carry out our work as quickly and efficiently as possible.
+              Nextzensoft is your trusted partner for cutting-edge software
+              development solutions. With a passion for innovation and a team of
+              highly skilled developers, we specialize in crafting custom
+              software tailored to your unique needs.
             </p>
           </div>
           {/* end */}
@@ -45,13 +45,14 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Flexible
+              Web App Development
             </h2>
             <p className="font-abelPro text-[#999999]">
-              Our team already numbers 1500+ highly qualified IT professionals.
-              It allows us to quickly adapt to the needs of our clients. We
-              provide rapid team ramp-up and easily scale it up and down
-              depending on the changing conditions of the project.
+              Powered with 8+ years of experience in web design and development,
+              the Brocoders team treats our clients as partners, not just
+              customers: we trust in your ideas and know how to translate your
+              vision into leading-edge web applications and personalized
+              websites.
             </p>
           </div>
           {/* end */}
@@ -64,13 +65,14 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Transparent
+              Mobile App development
             </h2>
             <p className="font-abelPro text-[#999999]">
-              Our cooperation with clients is always open and honest. We ensure
-              regular communication, an established daily reporting system, and
-              tracking tools according to the client’s preferences. Thus, our
-              clients can control all possible aspects of projects.
+              Bring your products and services closer to their users by
+              implementing a custom mobile application developed with your
+              business objectives in mind. We know how to do this in a fast and
+              cost-efficient way for both iOS and Android, without compromising
+              quality and usability.
             </p>
           </div>
           {/* end */}
@@ -83,7 +85,7 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Experienced
+              SaS Development
             </h2>
             <p className="font-abelPro text-[#999999]">
               Innowise Group has established well-managed processes to deliver
@@ -102,12 +104,12 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
-              Top Quality Engineers
+              Digital Transformations
             </h2>
             <p className="font-abelPro text-[#999999]">
-              A decade of experience in custom software development. We are
-              focused on bringing value to our customers and on helping them
-              succeed in the marketplace.
+              Leverage the full power of top-notch digital technologies to boost
+              your efficiency and workflow, reduce unnecessary costs and acquire
+              robust security.
             </p>
           </div>
           {/* end */}
@@ -121,12 +123,13 @@ const OurServices = () => {
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 hover:text-coralred ">
-              End to End Management
+              DevOps and Cloud Services
             </h2>
             <p className="font-abelPro text-[#999999]">
-              A decade of experience in custom software development. We are
-              focused on bringing value to our customers and on helping them
-              succeed in the marketplace.
+              Reinforce cooperation between the development, engineering,
+              security, and management teams to optimize your software
+              development life cycle (SDLC) with smooth and well-structured
+              DevOps by Brocoders.
             </p>
           </div>
           {/* end */}
