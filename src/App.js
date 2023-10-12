@@ -23,6 +23,7 @@ import ContactusPage from "./components/pages/ContactusPage";
 import SolutionsPage from "./components/pages/SolutionsPage";
 
 import NavbarNew from "./components/navbar/NavbarNew"; //
+import CustomSoftwarePage from "./components/pages/CustomSoftwarePage";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/solutions" element={<SolutionsPage />} />
           <Route path="/contact" element={<ContactusPage />} />
-          {/* Add more Route components for other pages */}
+          {/*sub  pages */}
+          <Route path="/customsoftwarepage" element={<CustomSoftwarePage />} />
         </Routes>
 
         <Footer />

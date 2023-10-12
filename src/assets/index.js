@@ -57,6 +57,15 @@ import buttonImage from "../assets/imagesNew/getIntoutch.png";
 // aboutPage=> vission Image
 import vissionImg from "../assets/imagesNew/vissionImg.png";
 import missionImg from "../assets/imagesNew/missionImg.png";
+//=> services pag
+import whatWeOfferImg from "../assets/imagesNew/what_we_offer.svg";
+import customSoftImg from "../assets/imagesNew/customsoftware.png";
+import webAppImg from "../assets/imagesNew/webDev.png";
+import mobileAppImg from "../assets/imagesNew/mobileDev.png";
+import softwareTestImg from "../assets/imagesNew/aqa.png";
+import learnArrowImg from "../assets/imagesNew/learnArrow.png";
+import workArrowImg from "../assets/imagesNew/workArrow.png";
+import confrenceImg from "../assets/imagesNew/conferance.jpg";
 
 //teschnology
 import nodeJs from "../assets/imagesNew/technologyIcon/nodeJS.png";
@@ -126,6 +135,16 @@ export {
   aboutHeroImage,
   software1,
   development,
+
+  //ServicesPage
+  whatWeOfferImg,
+  customSoftImg,
+  webAppImg,
+  mobileAppImg,
+  softwareTestImg,
+  learnArrowImg,
+  workArrowImg,
+  confrenceImg,
 
   // icons
   healthcare,
