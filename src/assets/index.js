@@ -59,7 +59,41 @@ import vissionImg from "../assets/imagesNew/vissionImg.png";
 import missionImg from "../assets/imagesNew/missionImg.png";
 
 //teschnology
-import nodeJs from "../assets/imagesNew/nodejs.png";
+import nodeJs from "../assets/imagesNew/technologyIcon/nodeJS.png";
+import java from "../assets/imagesNew/technologyIcon/javaIcon.png";
+import android from "../assets/imagesNew/technologyIcon/android.png";
+import antDesign from "../assets/imagesNew/technologyIcon/antDesign.png";
+import aspNet from "../assets/imagesNew/technologyIcon/aspNet.png";
+import aws from "../assets/imagesNew/technologyIcon/aws.png";
+import azure from "../assets/imagesNew/technologyIcon/azure.png";
+import cSharpe from "../assets/imagesNew/technologyIcon/cSharpe.png";
+import cPP from "../assets/imagesNew/technologyIcon/c++.png";
+import css from "../assets/imagesNew/technologyIcon/css.png";
+import dart from "../assets/imagesNew/technologyIcon/dart.png";
+import django from "../assets/imagesNew/technologyIcon/django.png";
+import dynamoDB from "../assets/imagesNew/technologyIcon/dynamoDB.png";
+import expressJS from "../assets/imagesNew/technologyIcon/expressJS.png";
+import figma from "../assets/imagesNew/technologyIcon/figma.png";
+import flutter from "../assets/imagesNew/technologyIcon/flutter.png";
+import html from "../assets/imagesNew/technologyIcon/html.png";
+import js from "../assets/imagesNew/technologyIcon/js.png";
+import laravel from "../assets/imagesNew/technologyIcon/laravel.png";
+import mongoDB from "../assets/imagesNew/technologyIcon/mongoDB.png";
+import mySql from "../assets/imagesNew/technologyIcon/mysql.png";
+import nextJS from "../assets/imagesNew/technologyIcon/nextJS.png";
+import oracleDB from "../assets/imagesNew/technologyIcon/oracleDB.png";
+import php from "../assets/imagesNew/technologyIcon/php.png";
+import python from "../assets/imagesNew/technologyIcon/python.png";
+import react from "../assets/imagesNew/technologyIcon/react.png";
+import sketch from "../assets/imagesNew/technologyIcon/sketch.png";
+import spring from "../assets/imagesNew/technologyIcon/spring.png";
+import springBoot from "../assets/imagesNew/technologyIcon/springBoot.png";
+import sqlLite from "../assets/imagesNew/technologyIcon/sqlLite.png";
+import swift from "../assets/imagesNew/technologyIcon/swift.png";
+import tailwind from "../assets/imagesNew/technologyIcon/tailwind.png";
+import threeJS from "../assets/imagesNew/technologyIcon/threeJS.png";
+import vueJS from "../assets/imagesNew/technologyIcon/vueJS.png";
+import xd from "../assets/imagesNew/technologyIcon/xd.png";
 
 // icon new
 import c_call from "../assets/iconsnew/c_call.png";
@@ -122,6 +156,40 @@ export {
   c_clock,
   //=> technology
   nodeJs,
+  java,
+  android,
+  antDesign,
+  aspNet,
+  aws,
+  azure,
+  cSharpe,
+  cPP,
+  css,
+  dart,
+  django,
+  dynamoDB,
+  expressJS,
+  figma,
+  flutter,
+  html,
+  js,
+  laravel,
+  mongoDB,
+  mySql,
+  nextJS,
+  oracleDB,
+  php,
+  python,
+  react,
+  sketch,
+  spring,
+  springBoot,
+  sqlLite,
+  swift,
+  tailwind,
+  threeJS,
+  vueJS,
+  xd,
   // what we do image
   whatWeDoWave,
   laptop1,
