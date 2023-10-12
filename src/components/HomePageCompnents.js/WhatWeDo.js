@@ -18,12 +18,12 @@ const WhatWeDo = () => {
 
   return (
     <div
-      className=" min-w-full max-h-[70vh] flex items-center justify-between text-white mt-20"
+      className=" min-w-full md:max-h-[70vh] flex  items-center justify-between text-white mt-20"
       style={backgroundImageStyle}
     >
       <div className="w-full h-full md:w-1/2 md:h-1/2 lg:w-1/2 lg:h-1/2 xl:w-1/3 xl:h-1/3 p-4 mx-5">
         <img
-          className=" mt-10 min-w-[60vw] min-h-[60vh] drop-shadow-[0px_30px_0px_rgba(0,0,0,.06)]"
+          className=" mt-10 min-w-full min-h-[60vh] lg:min-h-auto drop-shadow-lg"
           src={laptop1}
           alt="Laptop"
         />
