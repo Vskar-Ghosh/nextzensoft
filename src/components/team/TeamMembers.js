@@ -24,13 +24,12 @@ export const TeamMembers = () => {
       <h1 className=" text-6xl text-center p-10 ">
         <span className=" text-[#ee7324]">Meet</span> Expert Team
       </h1>
-      <div className=" w-[75%] p-5">
+      <div className=" w-[70vw] p-5 ">
         <Carousel
           autoPlay={false}
           autoPlaySpeed={2000}
           infinite={true}
           responsive={responsive}
-          className=" flex justify-between"
         >
           {developbr}
         </Carousel>

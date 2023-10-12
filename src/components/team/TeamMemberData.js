@@ -8,17 +8,23 @@ import {
 export const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
-    breakpoint: { max: 3000, min: 1024 },
+    breakpoint: { max: 3000, min: 1500 },
+    items: 4,
+    slidesToSlide: 2,
+  },
+  LargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 1500, min: 1150 },
     items: 3,
     slidesToSlide: 2,
   },
   desktop: {
-    breakpoint: { max: 1024, min: 800 },
+    breakpoint: { max: 1150, min: 800 },
     items: 2,
   },
   tablet: {
     breakpoint: { max: 800, min: 464 },
-    items: 1,
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
