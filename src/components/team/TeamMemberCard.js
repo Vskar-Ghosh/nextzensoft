@@ -10,7 +10,7 @@ import { FaFacebook } from "react-icons/fa";
 const TeamMemberCard = (props) => {
   return (
     <div className=" w-60 m-2 h-80 bg-[#193e65] pb-2 relative group">
-      <div className=" absolute top-40 right-0 z-10 h-10 w-32 bg-gradient-to-r from-[#e39f3e] to-[#f0da37] flex items-center justify-around text-xl text-black opacity-0  group-hover:opacity-100 transition-all">
+      <div className=" absolute top-40 right-0 z-10 h-10 w-32 bg-gradient-to-r from-[#e39f3e] to-[#f0da37] flex items-center justify-around text-xl text-black opacity-0  group-hover:opacity-100 transition-all duration-300">
         <a href="#">
           <FaLinkedin />
         </a>
