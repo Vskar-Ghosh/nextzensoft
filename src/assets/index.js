@@ -102,6 +102,11 @@ import swift from "../assets/imagesNew/technologyIcon/swift.png";
 import tailwind from "../assets/imagesNew/technologyIcon/tailwind.png";
 import threeJS from "../assets/imagesNew/technologyIcon/threeJS.png";
 import vueJS from "../assets/imagesNew/technologyIcon/vueJS.png";
+import agulerjs from "../assets/imagesNew/technologyIcon/angularjs.png";
+import typescript from "../assets/imagesNew/technologyIcon/typescript.png";
+import kotlin from "../assets/imagesNew/technologyIcon/kotlin.png";
+import bootstrap from "../assets/imagesNew/technologyIcon/kotlin.png";
+import m_ui from "../assets/imagesNew/technologyIcon/kotlin.png";
 import xd from "../assets/imagesNew/technologyIcon/xd.png";
 
 // icon new
@@ -158,6 +163,7 @@ export {
   pharmacy,
   realState,
   ui,
+  bootstrap,
   more,
   // banner
   banner1,
@@ -208,6 +214,10 @@ export {
   tailwind,
   threeJS,
   vueJS,
+  agulerjs,
+  typescript,
+  kotlin,
+  m_ui,
   xd,
   // what we do image
   whatWeDoWave,

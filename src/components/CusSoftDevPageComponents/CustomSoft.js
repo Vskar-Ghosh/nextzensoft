@@ -2,18 +2,11 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  customSoftImg,
-  webAppImg,
-  mobileAppImg,
-  softwareTestImg,
-  learnArrowImg,
-} from "../../assets/index";
+import { customSoftImg } from "../../assets/index";
 
 const CustomSoft = () => {
   return (
-    <div className="w-full py-3 flex flex-col justify-center sm:justify-center items-center  ">
-      {" "}
+    <div className="w-full py-3 flex flex-col justify-center sm:justify-center items-center">
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -32,7 +25,7 @@ const CustomSoft = () => {
               Software Development
             </span>
           </h1>
-          <p className="tex-[#999999] font-abelPro leading-normal">
+          <p className="text-[#999999] font-abelPro leading-normal">
             Custom software is essential for businesses in the modern era. It
             offers tailored solutions, a competitive edge, scalability,
             integration capabilities, enhanced security, cost-effectiveness,
@@ -43,15 +36,15 @@ const CustomSoft = () => {
           </p>
         </div>
         {/* end of text */}
-        <div className="w-full sm:w-auto">
+        <div className="w-full sm:w-1/2">
           <img
             src={customSoftImg}
             alt=""
-            className="w-[450px] h-[300px] max-xl:skew-y-12 xl:skew-y-12 sm:skew-y-3   mx-auto sm:mx-5 md:mx-5"></img>
+            className="w-full h-auto max-w-screen-md mx-auto"></img>
         </div>
         {/* end of photo */}
       </motion.div>
-      {/* end ==> */}
+      {/* end */}
       <div className="w-full flex flex-col justify-center items-center">
         <motion.div
           initial={{ x: 100, opacity: 0 }}
@@ -71,7 +64,7 @@ const CustomSoft = () => {
             </span>
           </h1>
         </motion.div>
-        <div className="w-[90vw] h-auto  flex flex-row mt-5 justify-center items-center gap-5 p-10  ">
+        <div className="w-full sm:w-[90vw] lg:w-[80vw] xl:w-[70vw] h-auto flex flex-row mt-5 justify-center items-center gap-5 p-10">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -82,11 +75,11 @@ const CustomSoft = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className="w-[45vw] flex flex-col p-5">
+            className="w-full sm:w-1/2 flex flex-col p-5">
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Competitive Advantage
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               Custom software can provide a significant competitive advantage.
               Businesses can create software that is innovative, efficient, and
               tailored to their industry, setting them apart from competitors.
@@ -94,7 +87,7 @@ const CustomSoft = () => {
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Cost-Effective
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               While the initial investment in custom software development can be
               higher than off-the-shelf solutions, it can be more cost-effective
               in the long run. Custom software eliminates the need for ongoing
@@ -104,7 +97,7 @@ const CustomSoft = () => {
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Ownership and Control
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               When a company develops custom software, they have full ownership
               and control over the system. This means they aren't dependent on
               third-party vendors for updates or support.
@@ -120,20 +113,20 @@ const CustomSoft = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className="w-[45vw]  flex-col p-5">
+            className="w-full sm:w-1/2 flex flex-col p-5">
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Scalability
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               Custom software can grow and evolve with a business. Companies can
               add new features and functionalities as they expand, ensuring that
-              the software remains relevant and effective.helping businesses
+              the software remains relevant and effective, helping businesses
               make data-driven decisions and improve their processes.
             </p>
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Security
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               Custom software can be developed with security in mind. Businesses
               can implement robust security features and stay ahead of potential
               threats and vulnerabilities.
@@ -141,7 +134,7 @@ const CustomSoft = () => {
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Support and Maintenance
             </h1>
-            <p className="tex-[#999999] font-abelPro leading-normal">
+            <p className="text-[#999999] font-abelPro leading-normal">
               Custom software can be maintained and supported by a dedicated
               team, ensuring that issues are addressed promptly and that updates
               are aligned with the business's needs.

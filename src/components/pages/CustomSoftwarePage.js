@@ -4,10 +4,14 @@ import React from "react";
 import Wave from "react-wavify";
 import { motion } from "framer-motion";
 import CustomSoft from "../CusSoftDevPageComponents/CustomSoft";
+import CustomersWorldwide from "../HomePageCompnents.js/CustomersWorldwide";
+import EngagementModel from "../CusSoftDevPageComponents/EngagementModel";
+import WhatWeCanDo from "../CusSoftDevPageComponents/WhatWeCanDo";
+import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed";
 
 const CustomSoftwarePage = () => {
   return (
-    <section className="w-full  py-0 ">
+    <section className="w-full  py-0  ">
       <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-customSoftDevBg mb-10">
         <div id="custom-software" className="w-full relative">
           <Wave
@@ -37,6 +41,9 @@ const CustomSoftwarePage = () => {
       </div>
       {/* end of hero sections */}
       <CustomSoft />
+      <WhatWeCanDo />
+      <TechnoloweUsed />
+      <CustomersWorldwide />
     </section>
   );
 };
