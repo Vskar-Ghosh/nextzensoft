@@ -66,6 +66,8 @@ import softwareTestImg from "../assets/imagesNew/aqa.png";
 import learnArrowImg from "../assets/imagesNew/learnArrow.png";
 import workArrowImg from "../assets/imagesNew/workArrow.png";
 import confrenceImg from "../assets/imagesNew/conferance.jpg";
+import computerCrypto from "../assets/images/computerC.png";
+import sdlc from "../assets/images/sdlc.png";
 
 //teschnology
 import nodeJs from "../assets/imagesNew/technologyIcon/nodeJS.png";
@@ -150,6 +152,8 @@ export {
   learnArrowImg,
   workArrowImg,
   confrenceImg,
+  computerCrypto,
+  sdlc,
 
   // icons
   healthcare,
