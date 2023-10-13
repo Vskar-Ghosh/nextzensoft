@@ -5,6 +5,7 @@ import Wave from "react-wavify";
 import WhatWeOffer from "../servicePageCompnents/WhatWeOffer.js";
 import AllServices from "../servicePageCompnents/AllServices.js";
 import WorkProces from "../servicePageCompnents/WorkProces.js";
+import Sdlc from "../servicePageCompnents/Sdlc.js";
 
 const ServicesPage = () => {
   return (
@@ -43,6 +44,7 @@ const ServicesPage = () => {
       <WhatWeOffer />
       <AllServices />
       <WorkProces />
+      <Sdlc />
     </section>
   );
 };

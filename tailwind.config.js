@@ -35,6 +35,7 @@ module.exports = {
         customSoftDevBg: "url('assets/imagesNew/cusSoftDevBg.svg')",
         workProcessBg: "url('assets/imagesNew/workProcessBg.svg')",
         card: "url('assets/images/thumbnail-background.svg')",
+        sdlcBg: "url('assets/images/computerC.png')",
       },
     },
   },
