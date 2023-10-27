@@ -1,0 +1,21 @@
+/**
+ * styles.module.css
+ *
+ * @format
+ */
+
+@keyframes colorChange {
+  0% {
+    color: red; /* Start color */
+  }
+  100% {
+    color: blue; /* End color */
+  }
+}
+
+.text-color-transform {
+  animation: colorChange 5s linear infinite alternate; /* Adjust the duration as needed */
+  display: inline-block;
+  white-space: nowrap; /* Prevent wrapping of the text */
+  animation-fill-mode: forwards; /* Keep final state after animation */
+}

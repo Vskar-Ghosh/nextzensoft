@@ -17,6 +17,7 @@ module.exports = {
         // bodyColor: "#212428",
         bodyColor: "#ffffff",
         coralred: "#FF6452",
+        deepBlue: "#193E65",
 
         //=> this is for black backgrounds..
         // lightText: "#c4cfde",
@@ -32,8 +33,27 @@ module.exports = {
         aboutHeroBg: "url('assets/imagesNew/aboutbg.svg')",
         customerWorldWide: "url('assets/imagesNew/customer_worldwide.svg')",
         servicesBg: "url('assets/imagesNew/servicebg.svg')",
+        caseStudyBg: "url('assets/imagesNew/caseStudy.svg')",
         customSoftDevBg: "url('assets/imagesNew/cusSoftDevBg.svg')",
         workProcessBg: "url('assets/imagesNew/workProcessBg.svg')",
+        mobileAppDeV: "url('assets/imagesNew/mob_bg_1.jpeg')",
+        WebAppDeVBg: "url('assets/imagesNew/WebAppDev_Bg.jpg')",
+        fintechBg: "url('assets/imagesNew/finBgtwo.jpg')",
+        healthcareBG: "url('assets/imagesNew/Hospitality-1.jpg')",
+        eduBG: "url('assets/imagesNew/eduBg1.jpg')",
+        realEstateBG: "url('assets/imagesNew/realEstate.jpg')",
+        pharmachyBG: "url('assets/imagesNew/pharmachyBg.jpg')",
+        ioTBG: "url('assets/imagesNew/iot.jpg')",
+        ioTBGThree: "url('assets/imagesNew/iotBg3.jpg')",
+        getIntoutchBG: "url('assets/imagesNew/tttt.jpg')",
+
+        // technologies bg
+        javaBG: "url('assets/TechImages/javaBg.jpg')",
+        nodeBG: "url('assets/TechImages/nodejsBg.jpg')",
+
+        // end tech
+        testBG: "url('assets/imagesNew/test.png')",
+
         card: "url('assets/images/thumbnail-background.svg')",
         sdlcBg: "url('assets/images/computerC.png')",
       },

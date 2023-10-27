@@ -2,28 +2,32 @@
 
 import { React } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Carousel from "./components/slider/Carousel ";
-import { countries } from "./components/slider/Data.js";
 
-import Navbar from "./components/navbar/Navbar";
-import Banner from "./components/banner/Banner";
-import Features from "./components/features/Features";
-import Projects from "./components/Projects/projects";
-import Solutions from "./components/solutions/Solutions.js";
-import ClientReview from "./components/clientreview/ClientReview.js";
-import ContactUs from "./components/contactus/ContactUs.js";
 import Footer from "./components/footer/Footer.js";
 import FooterBottom from "./components/footer/FooterBottom.js";
-import TeamMembers from "./components/team/TeamMembers.js";
-import About from "./components/about/About";
 import HomePage from "./components/pages/HomePage"; // Import HomePage component
 import AboutPage from "./components/pages/AboutPage";
 import ServicesPage from "./components/pages/ServicesPage";
-import ContactusPage from "./components/pages/ContactusPage";
 import SolutionsPage from "./components/pages/SolutionsPage";
-
 import NavbarNew from "./components/navbar/NavbarNew"; //
 import CustomSoftwarePage from "./components/pages/CustomSoftwarePage";
+import WebAppDevPage from "./components/pages/WebAppDevPage";
+import MobileAppDevPage from "./components/pages/MobileAppDevPage";
+import IndustriesPage from "./components/pages/IndustriesPage.js";
+import GetInTouchPage from "./components/pages/GetInTouchPage.js";
+import FinTechPage from "./components/pages/FinTechPage.js";
+import HealthcarePage from "./components/pages/HealthcarePage.js";
+import EcommercePage from "./components/pages/EcommercePage.js";
+import EducationPage from "./components/pages/EducationPage.js";
+import HospitalityPage from "./components/pages/HospitalityPage";
+import PharmacyPage from "./components/pages/PharmacyPage.js";
+import FoodTechPage from "./components/pages/FoodTechPage.js";
+import RealEsatatePage from "./components/pages/RealEsatatePage.js";
+import JavaPage from "./components/pages/technologiespages/JavaPage.js";
+import NodeJsPage from "./components/pages/technologiespages/nodejs/NodeJsPage.js";
+import JavaScriptPage from "./components/pages/technologiespages/JavaScript/JavaScriptPage.js";
+import IotPage from "./components/pages/technologiespages/iot/IotPage.js";
+import CasePage from "./components/pages/CaseStudy/CasePage.js";
 
 function App() {
   return (
@@ -37,9 +41,27 @@ function App() {
           <Route path="/about" element={<AboutPage />} /> {/* About page */}
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/solutions" element={<SolutionsPage />} />
-          <Route path="/contact" element={<ContactusPage />} />
+          <Route path="/case" element={<CasePage />} />
+          <Route path="/industries" element={<IndustriesPage />} />
+          <Route path="/contact" element={<GetInTouchPage />} />
           {/*sub  pages */}
           <Route path="/customsoftwarepage" element={<CustomSoftwarePage />} />
+          <Route path="/webappdevpage" element={<WebAppDevPage />} />
+          <Route path="/mobileppdevpage" element={<MobileAppDevPage />} />
+          {/* industries */}
+          <Route path="/fintech" element={<FinTechPage />} />
+          <Route path="/healthcare" element={<HealthcarePage />} />
+          <Route path="/ecommerce" element={<EcommercePage />} />
+          <Route path="/education" element={<EducationPage />} />
+          <Route path="/hospitality" element={<HospitalityPage />} />
+          <Route path="/pharmacy" element={<PharmacyPage />} />
+          <Route path="/foodtech" element={<FoodTechPage />} />
+          <Route path="/realestate" element={<RealEsatatePage />} />
+          {/* technologies */}
+          <Route path="/java" element={<JavaPage />} />
+          <Route path="/nodejs" element={<NodeJsPage />} />
+          <Route path="/javascript" element={<JavaScriptPage />} />
+          <Route path="/iot" element={<IotPage />} />
         </Routes>
 
         <Footer />

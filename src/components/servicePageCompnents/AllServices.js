@@ -90,7 +90,7 @@ const AllServices = () => {
             vision into leading-edge web applications and personalized websites.
           </p>
           <a
-            href="/"
+            href="/webappdevpage"
             className="w-[180px]  mb-2 flex flex-row gap-1 items-center">
             <h2 className=" text-xl text-coralred font-bold">Learn more</h2>
             <img src={learnArrowImg} alt="" className=" flex  items-center" />
@@ -127,7 +127,7 @@ const AllServices = () => {
             quality and usability.
           </p>
           <a
-            href="/"
+            href="/mobileppdevpage"
             className="w-[180px]  mb-2 flex flex-row gap-1 items-center">
             <h2 className=" text-xl text-coralred font-bold">Learn more</h2>
             <img src={learnArrowImg} alt="" className=" flex  items-center" />

@@ -34,44 +34,44 @@ const DevelopmentInfo = () => {
           request to do so.
         </p>
       </div>
-      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#039FC199] rounded-md opacity-50">
+      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#eb3a3e] shadow-2xl shadow-orange-700 rounded-md opacity-100 skew-y-12 transform-gpu ">
         <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
           Timeframe
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           Depends on a project
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-deepBlue mb-1">
           Deliverables
         </h1>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-deepBlue">
           Environment setup
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-deepBlue">
           Staging and production servers
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-deepBlue">
           Intermediate releases
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-deepBlue">
           Weekly reports
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-deepBlue  mb-1">
           Who's Involved
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           Business analyst
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           Project manager
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           Development team
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           QA team
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-deepBlue">
           DevOps
         </p>
       </div>

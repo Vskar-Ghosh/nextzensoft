@@ -19,36 +19,36 @@ const ProductLunchInfo = () => {
           </span>
         </p>
       </div>
-      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#C1250399] rounded-md opacity-70">
+      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#C1250399] rounded-md shadow-2xl shadow-orange-700  opacity-100 skew-y-12 transform-gpu">
         <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
           Timeframe
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           About a week
         </p>
         <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
           Deliverables
         </h1>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-white">
           Final release
         </p>
 
         <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
           Who's Involved
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Technical Manager
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Tech Lead
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Business analyst
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Designer
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           DevOps
         </p>
       </div>

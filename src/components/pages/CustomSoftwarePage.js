@@ -8,6 +8,7 @@ import CustomersWorldwide from "../HomePageCompnents.js/CustomersWorldwide";
 import EngagementModel from "../CusSoftDevPageComponents/EngagementModel";
 import WhatWeCanDo from "../CusSoftDevPageComponents/WhatWeCanDo";
 import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed";
+import Sdlc from "../servicePageCompnents/Sdlc";
 
 const CustomSoftwarePage = () => {
   return (
@@ -29,7 +30,7 @@ const CustomSoftwarePage = () => {
           />
           <div className="absolute top-0 left-0 w-full sm:w-1/2 h-full flex flex-col items-center sm:items-start justify-center sm:ml-20 text-[#FFFFFF]">
             <h1 className="text-4xl sm:text-5xl font-abelPro font-bold text-center sm:text-left">
-              Our Services
+              Custom Software Development
             </h1>
             <p className="font-abelPro text-[#FFFFFF] leading-normal text-center sm:text-left">
               Custom software can provide a significant competitive advantage.
@@ -42,6 +43,7 @@ const CustomSoftwarePage = () => {
       {/* end of hero sections */}
       <CustomSoft />
       <WhatWeCanDo />
+      <Sdlc />
       <TechnoloweUsed />
       <CustomersWorldwide />
     </section>

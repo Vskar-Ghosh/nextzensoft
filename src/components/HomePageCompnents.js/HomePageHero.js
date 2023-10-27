@@ -10,11 +10,11 @@ const HomePageHero = () => {
       <div className="landingpage">
         <div className="hero-section">
           <div className="hero-main">
-            <div className="hero-text">
+            <div className="hero-text mt-10">
               <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                 NextGen Soft - Your trusted Software Development Partner
               </h1>
-              <p className="text-sm md:text-base lg:text-lg xl:text-xl hero-text-p">
+              <p className="text-sm max-sm:text-[12px] md:text-base lg:text-md xl:text-xl  hero-text-p font-abelPro mb-0 ">
                 We're here to accompany you all along the road from an MVP to
                 asuccssfull product stage or wherever your business goals and
                 ambtions will take you.
@@ -22,14 +22,14 @@ const HomePageHero = () => {
             </div>
             <div className="wave">
               <Wave
-                className="anim-wave"
+                className="anim-wave h-[50vh]"
                 fill="#EE7E24"
                 fillOpacity=".7"
                 paused={false}
                 style={{ display: "flex" }}
                 options={{
                   height: 30,
-                  amplitude: 50,
+                  amplitude: 40,
                   speed: 0.2,
                   points: 3,
                 }}

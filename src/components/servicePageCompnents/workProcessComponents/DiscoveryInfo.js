@@ -16,32 +16,32 @@ const DiscoveryInfo = () => {
           your idea and provide expert advice.
         </p>
       </div>
-      <div className="w-full sm:w-[15vw] md:w-[15vw] flex flex-col p-3 bg-yellow-200 rounded-md opacity-50">
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+      <div className="w-full sm:w-[15vw] md:w-[15vw] flex flex-col p-3 shadow-2xl bg-[#f75200] opacity-90 rounded-md ">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Timeframe
         </h1>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white">
           Up to 3 days
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Deliverables
         </h1>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white">
           Project proposal
         </p>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white">
           Contract for prototype deliver
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Who's Involved
         </h1>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white ">
           Account manager
         </p>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white">
           Business analyst
         </p>
-        <p className="font-abelPro text-base sm:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base sm:text-base text-white">
           Marketing Manager
         </p>
       </div>

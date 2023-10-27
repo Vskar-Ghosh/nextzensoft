@@ -36,6 +36,7 @@ import { tailwind } from "../../assets/index";
 import { threeJS } from "../../assets/index";
 import { vueJS } from "../../assets/index";
 import { xd } from "../../assets/index";
+import { primerpro } from "../../assets/index";
 
 const TechnologyWeUse = () => {
   return (
@@ -58,8 +59,11 @@ const TechnologyWeUse = () => {
         <div className=" flex flex-col  justify-center items-center">
           <div className="flex flex-row flex-wrap gap-3 items-center mb-10 p-3 mx-5">
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img src={java} alt="" width={150} height={150} className="p-3" />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
-                src={figma}
+                src={cSharpe}
                 alt=""
                 width={150}
                 height={150}
@@ -67,11 +71,11 @@ const TechnologyWeUse = () => {
               />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={xd} alt="" width={150} height={150} className="p-3" />
+              <img src={cPP} alt="" width={150} height={150} className="p-3" />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
-                src={sketch}
+                src={python}
                 alt=""
                 width={150}
                 height={150}
@@ -79,93 +83,16 @@ const TechnologyWeUse = () => {
               />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={html} alt="" width={150} height={150} className="p-3" />
+              <img src={dart} alt="" width={150} height={150} className="p-3" />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={css} alt="" width={150} height={150} className="p-3" />
+              <img src={php} alt="" width={150} height={150} className="p-3" />
             </div>
 
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={tailwind}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
+              <img src={js} alt="" width={150} height={150} className="p-3" />
             </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={antDesign}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={react}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={nextJS}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={vueJS}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={threeJS}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={flutter}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={android}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={swift}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
+
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
                 src={nodeJs}
@@ -175,27 +102,10 @@ const TechnologyWeUse = () => {
                 className="p-3"
               />
             </div>
+
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
                 src={expressJS}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={laravel}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={django}
                 alt=""
                 width={150}
                 height={150}
@@ -231,7 +141,106 @@ const TechnologyWeUse = () => {
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
-                src={mongoDB}
+                src={laravel}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={django}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={flutter}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={swift}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={android}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={react}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={nextJS}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={threeJS}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={vueJS}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img src={html} alt="" width={150} height={150} className="p-3" />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img src={css} alt="" width={150} height={150} className="p-3" />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={tailwind}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={antDesign}
                 alt=""
                 width={150}
                 height={150}
@@ -250,6 +259,15 @@ const TechnologyWeUse = () => {
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
                 src={sqlLite}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
+            </div>
+            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
+              <img
+                src={mongoDB}
                 alt=""
                 width={150}
                 height={150}
@@ -287,14 +305,8 @@ const TechnologyWeUse = () => {
               />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={java} alt="" width={150} height={150} className="p-3" />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={js} alt="" width={150} height={150} className="p-3" />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
-                src={cSharpe}
+                src={figma}
                 alt=""
                 width={150}
                 height={150}
@@ -302,14 +314,11 @@ const TechnologyWeUse = () => {
               />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={cPP} alt="" width={150} height={150} className="p-3" />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={php} alt="" width={150} height={150} className="p-3" />
+              <img src={xd} alt="" width={150} height={150} className="p-3" />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
               <img
-                src={python}
+                src={sketch}
                 alt=""
                 width={150}
                 height={150}
@@ -317,48 +326,16 @@ const TechnologyWeUse = () => {
               />
             </div>
             <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img src={dart} alt="" width={150} height={150} className="p-3" />
+              <img
+                src={primerpro}
+                alt=""
+                width={150}
+                height={150}
+                className="p-3"
+              />
             </div>
           </div>
           {/* end fond */}
-          {/* <div className="flex flex-row flex-wrap gap-3 items-center mt-10 p-3 mx-5">
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={nodeJs}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={nodeJs}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={nodeJs}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-            <div className="w-[150px] h-[ 150px] p-4 mx-3 shadow-2xl rounded-md ">
-              <img
-                src={nodeJs}
-                alt=""
-                width={150}
-                height={150}
-                className="p-3"
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

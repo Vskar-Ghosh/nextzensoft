@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const IndustryWeServeTitle = () => {
   const [text] = useTypewriter({
-    words: ["We Services"],
+    words: ["We Serve"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,

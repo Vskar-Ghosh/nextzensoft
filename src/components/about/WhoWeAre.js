@@ -20,9 +20,8 @@ const WhoWeAre = () => {
         <h1 className="font-abelPro text-4xl md:text-5xl font-bold">
           Who
           <br />
-          <span className="text-coralred"> We</span>
-          <br />
-          Are
+          <span className="text-coralred"> We </span>
+          {""}Are
         </h1>
         <p className="font-abelPro text-[#999999] leading-normal">
           We are the premier provider of software development and testing

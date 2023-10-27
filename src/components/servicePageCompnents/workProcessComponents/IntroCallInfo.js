@@ -13,38 +13,38 @@ const IntroCallInfo = () => {
           elicitation, we start from a first call and meetings with you.
         </p>
       </div>
-      <div className="w-full md:w-1/4 xl:w-1/4 sm:justify-center sm:mx-5 flex flex-col p-3 rounded-md bg-[#EE7E2499] opacity-70">
-        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+      <div className="w-full md:w-1/4 xl:w-1/4 sm:justify-center sm:mx-5 flex flex-col p-3shadow-2xl p-3 shadow-orange-700 rounded-md opacity-100 skew-y-12 transform-gpu bg-[#f70100] ">
+        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-white mb-1">
           Timeframe
         </div>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           1 hour
         </p>
-        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-white mb-1">
           Deliverables
         </div>
-        <p className="font-abelPro font-bold text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro font-bold text-base md:text-base xl:text-base text-white">
           NDA
         </p>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Consultation
         </p>
-        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <div className="text-2xl md:text-2xl xl:text-2xl font-abelPro font-bold text-white mb-1">
           Who's Involved
         </div>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Technical Manager
         </p>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Tech Lead
         </p>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Marketing Manager
         </p>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Account Manager
         </p>
-        <p className="font-abelPro text-base md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-base md:text-base xl:text-base text-white">
           Stakeholder
         </p>
       </div>

@@ -26,13 +26,14 @@ const OurServices = () => {
               className="rounded-full bg-coralred m-3"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
-              Result-oriented
+              Custom Software Development
             </h2>
             <p className="font-abelPro text-[#999999] p-3">
-              For our company, the only indicator of the project’s success is
-              the achievement of the goals and objectives set by the client. Due
-              to high-quality project management and a team of IT talents, we
-              carry out our work as quickly and efficiently as possible.
+              We help you create diverse and complex software solutions for your
+              business needs. Listening to your ideas, we implement and create
+              custom software solutions from scratch, designed especially for
+              your business. With Enosis, you get quality software and perfect
+              service every time.
             </p>
             <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
           </div>
@@ -46,34 +47,14 @@ const OurServices = () => {
               className="rounded-full bg-coralred m-3"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Flexible
+              Web Application Development
             </h2>
             <p className="font-abelPro text-[#999999] p-3">
-              Our team already numbers 1500+ highly qualified IT professionals.
-              It allows us to quickly adapt to the needs of our clients. We
-              provide rapid team ramp-up and easily scale it up and down
-              depending on the changing conditions of the project.
-            </p>
-            <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
-          </div>
-
-          {/* end */}
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl  relative group overflow-hidden">
-            <img
-              src={fintech}
-              alt="Icon"
-              height={50}
-              width={50}
-              className="rounded-full bg-coralred m-3"
-            />
-            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Transparent
-            </h2>
-            <p className="font-abelPro text-[#999999] p-3">
-              Our cooperation with clients is always open and honest. We ensure
-              regular communication, an established daily reporting system, and
-              tracking tools according to the client’s preferences. Thus, our
-              clients can control all possible aspects of projects.
+              Powered with 3+ years of experience in web design and development,
+              the Brocoders team treats our clients as partners, not just
+              customers: we trust in your ideas and know how to translate your
+              vision into leading-edge web applications and personalized
+              websites.
             </p>
             <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
           </div>
@@ -88,13 +69,37 @@ const OurServices = () => {
               className="rounded-full bg-coralred m-3"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
-              Experienced
+              Mobile Application Development
             </h2>
             <p className="font-abelPro text-[#999999] p-3">
-              Innowise Group has established well-managed processes to deliver
-              software development services. They are based on the best examples
-              of IT outsourcing and can be easily aligned to the specifics of
-              customers and their projects.
+              Bring your products and services closer to their users by
+              implementing a custom mobile application developed with your
+              business objectives in mind. We know how to do this in a fast and
+              cost-efficient way for both iOS and Android, without compromising
+              quality and usability.
+            </p>
+            <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
+          </div>
+
+          {/* end */}
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl  relative group overflow-hidden">
+            <img
+              src={fintech}
+              alt="Icon"
+              height={50}
+              width={50}
+              className="rounded-full bg-coralred m-3"
+            />
+            <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
+              Digital Transformation
+            </h2>
+            <p className="font-abelPro text-[#999999] p-3">
+              In This digital age, adopting cutting-edge technology, and
+              redefining business strategies to stay competitive in the rapidly
+              evolving technology landscape. It involves the modernization of
+              legacy systems, enhancing agility, optimizing processes, and
+              leveraging data-driven insights to drive growth and ensure
+              long-term success.
             </p>
             <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
           </div>
@@ -109,12 +114,14 @@ const OurServices = () => {
               className="rounded-full bg-coralred m-3"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
-              Top Quality Engineers
+              DevOps and Cloud Services
             </h2>
             <p className="font-abelPro text-[#999999] p-3">
-              A decade of experience in custom software development. We are
-              focused on bringing value to our customers and on helping them
-              succeed in the marketplace.
+              Faster product development and deployment, enhanced quality and
+              efficiency, increased delivery capacity, stability, and resilience
+              to failures — all this and more can be brought to you by
+              implementing the best cloud architecture and DevOps practices,
+              applied by our cross-functional team with 3+ years of experience.
             </p>
             <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
           </div>
@@ -129,12 +136,13 @@ const OurServices = () => {
               className="rounded-full bg-coralred m-3"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 hover:text-coralred ">
-              End to End Management
+              Product Development
             </h2>
             <p className="font-abelPro text-[#999999] p-3">
-              A decade of experience in custom software development. We are
-              focused on bringing value to our customers and on helping them
-              succeed in the marketplace.
+              We are ready to either polish your MVP so you can reach a
+              Product-Market Fit and start gaining decent traction or underpin
+              your product with additional powerful features that make your
+              solution of a higher value.
             </p>
             <div className=" h-[100%] w-full absolute bottom-[-100%] group-hover:bottom-0 bg-gradient-to-b from-cyan-500 to-blue-500 opacity-50 transition-all duration-500 delay-100"></div>
           </div>

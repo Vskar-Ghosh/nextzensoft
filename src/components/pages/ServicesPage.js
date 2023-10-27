@@ -6,6 +6,7 @@ import WhatWeOffer from "../servicePageCompnents/WhatWeOffer.js";
 import AllServices from "../servicePageCompnents/AllServices.js";
 import WorkProces from "../servicePageCompnents/WorkProces.js";
 import Sdlc from "../servicePageCompnents/Sdlc.js";
+import TechnoloweUsed from "../CusSoftDevPageComponents/TechnoloweUsed.js";
 
 const ServicesPage = () => {
   return (
@@ -14,7 +15,7 @@ const ServicesPage = () => {
         <div className="w-full relative">
           <Wave
             fill="#039FC199"
-            fillOpacity=".7"
+            fillOpacity=".9"
             paused={false}
             style={{ display: "flex" }}
             options={{
@@ -41,10 +42,11 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
+      {/* end of hereo section */}
       <WhatWeOffer />
       <AllServices />
       <WorkProces />
-      <Sdlc />
+      <TechnoloweUsed />
     </section>
   );
 };

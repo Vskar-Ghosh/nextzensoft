@@ -12,6 +12,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* below for React Collapse animation */
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
 @layer components {
   .bannerIcon {
     @apply w-16 h-16 bg-[#4E5683] bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md  hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
@@ -37,6 +41,14 @@
   }
   .customTechCard {
     @apply w-[150px] h-[150px] p-2 mx-2 shadow-lg rounded-md;
+  }
+
+  .customTechUsedLeft {
+    @apply grid max-sm:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 max-xl:grid-cols-5 gap-3;
+  }
+
+  .reEstHeadOne {
+    @apply text-2xl lg:text-2xl max-lg:text-2xl xl:text-2xl max-xl:text-3xl md:text-xl max-sm:text-xl sm:text-xl text-white font-abelPro font-bold hover:text-designColor;
   }
 }
 

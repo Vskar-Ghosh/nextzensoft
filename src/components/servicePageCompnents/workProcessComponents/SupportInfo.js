@@ -19,7 +19,7 @@ const SupportInfo = () => {
           </span>
         </p>
       </div>
-      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#C1250399] rounded-md opacity-70">
+      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#C1250399] shadow-2xl shadow-orange-700 rounded-md opacity-100 skew-y-12 transform-gpu">
         <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
           Timeframe
         </h1>

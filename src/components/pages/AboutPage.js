@@ -2,7 +2,7 @@
 
 import React from "react";
 import ContactUs from "../contactus/ContactUs.js";
-import Features from "../features/Features.js";
+
 import Wave from "react-wavify";
 import MissionVissionComponent from "../about/missionVission/MissionVissionComponent.js";
 import { motion } from "framer-motion";
@@ -54,10 +54,6 @@ const AboutPage = () => {
       <MissionVissionComponent />
       <WhyUs />
       <IndustryWeServe />
-      <Technologies />
-      <div className="mx-2 md:mx-5">
-        <Features />
-      </div>
       <ContactUs />
     </section>
   );

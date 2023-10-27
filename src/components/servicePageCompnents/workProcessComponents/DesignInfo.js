@@ -38,44 +38,44 @@ const DesignInfo = () => {
           can test the interface usability and leave your feedback.
         </p>
       </div>
-      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#039FC199] rounded-md opacity-50">
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+      <div className="w-full md:w-1/4 xl:w-1/4 sm:w-full sm:mx-5 flex flex-col p-3 bg-[#071e34] rounded-md opacity-90">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Timeframe
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           1 month
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Deliverables
         </h1>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro  text-sm md:text-base xl:text-base text-white">
           Low-fidelity prototype in Figma
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro  text-sm md:text-base xl:text-base text-white">
           Feature-based estimation
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Feature decomposition
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro  text-sm md:text-base xl:text-base text-white">
           Graphic project in Figma
         </p>
-        <p className="font-abelPro font-bold text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Contract for development
         </p>
-        <h1 className="text-2xl font-abelPro font-bold text-[#193E65] mb-1">
+        <h1 className="text-2xl font-abelPro font-bold text-white mb-1">
           Who's Involved
         </h1>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Business analyst
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Project manager
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Designer
         </p>
-        <p className="font-abelPro text-sm md:text-base xl:text-base text-[#5C5C5C]">
+        <p className="font-abelPro text-sm md:text-base xl:text-base text-white">
           Technical advisor
         </p>
       </div>
