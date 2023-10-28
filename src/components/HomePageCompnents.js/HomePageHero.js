@@ -17,7 +17,7 @@ const HomePageHero = () => {
               <p className="text-sm max-sm:text-[12px] md:text-base lg:text-md xl:text-xl  hero-text-p font-abelPro mb-0 ">
                 We're here to accompany you all along the road from an MVP to
                 asuccssfull product stage or wherever your business goals and
-                ambtions will take you. hi.
+                ambtions will take you.
               </p>
             </div>
             <div className="wave">
