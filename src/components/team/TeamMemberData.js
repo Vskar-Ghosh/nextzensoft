@@ -4,6 +4,8 @@ import {
   vaskarTest,
   sabbirTest,
   ibnul,
+  bangladesh,
+  japan,
 } from "../../assets/index.js";
 export const responsive = {
   superLargeDesktop: {
@@ -41,7 +43,9 @@ export const developertData = [
     deg: "Full Stack Software Engineer",
     experience:
       " Experienced full-stack developer with two plus years of experience in the industry. ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
+    tech: "Java, C#, JavaCsrip, Flutter, React, NodeJs, Mysql, MongoDB, TailwindCss",
+    country: bangladesh,
+    countryName: "Bangladesh",
   },
   {
     id: 2,
@@ -51,17 +55,21 @@ export const developertData = [
     deg: "Product Manager",
     experience:
       " Experienced full-stack developer with two plus years of experience in the industry. ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
+    tech: "Java, C#, JavaCsrip, Flutter, React, NodeJs, Mysql, MongoDB, TailwindCss",
+    country: japan,
+    countryName: "Japan",
   },
   {
     id: 3,
     image: vaskarTest,
     name: "Vaskar Ghosh",
     edu: "Varendra University, Bangladesh",
-    deg: "Developer",
+    deg: "MERN Stack Developer",
     experience:
       " Experienced full-stack developer with one plus years of experience in the industry. ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
+    tech: "JavaCsript, React, NodeJs, Mysql, MongoDB, TailwindCss.",
+    country: bangladesh,
+    countryName: "Bangladesh",
   },
   {
     id: 1,
@@ -71,6 +79,8 @@ export const developertData = [
     deg: "App developer",
     experience:
       " Experienced full-stack developer with two plus years of experience in the industry. ",
-    tech: "Java,C#,JavaCsrip,Flutter,React,NodeJs Mysql,MongoDB,TailwindCss",
+    tech: "Java, C#, JavaCsrip, Flutter, React, NodeJs, Mysql, MongoDB, TailwindCss",
+    country: bangladesh,
+    countryName: "Bangladesh",
   },
 ];

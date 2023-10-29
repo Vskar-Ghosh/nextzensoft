@@ -16,7 +16,8 @@ const FintechMainCompo = () => {
             ease: "easeIn",
             duration: 2,
           }}
-          className="flex justify-center mt-3 mx-auto">
+          className="flex justify-center mt-3 mx-auto"
+        >
           <h1 className=" max-xl:text-8xl xl:text-7x lg:text-6xl md-text-5xl sm:text-3xl max-sm:text-3xl max-sm:mx-4 text-coralred font-abelPro">
             FinTech applications{" "}
             <span className=" max-xl:text-8xl xl:text-7x lg:text-6xl md-text-5xl sm:text-3xl max-sm:text-3xl text-[#241468] font-abelPro">
@@ -44,7 +45,8 @@ const FintechMainCompo = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className="w-full sm:w-1/2 h-[390px] bg-white flex flex-col items-baseline shadow-xl p-5">
+            className="w-full sm:w-1/2 h-[390px] bg-white flex flex-col items-baseline shadow-xl p-5"
+          >
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               AI-enabled Solutions
             </h1>
@@ -71,7 +73,8 @@ const FintechMainCompo = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className="w-full sm:w-1/2 flex h-[390px] bg-white flex-col shadow-xl p-5">
+            className="w-full sm:w-1/2 flex h-[390px] bg-white flex-col shadow-xl p-5"
+          >
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal  p-2">
               Finance Management Solutions
             </h1>
@@ -100,7 +103,8 @@ const FintechMainCompo = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className="w-full sm:w-1/2 h-[390px] bg-white flex flex-col shadow-xl p-5">
+            className="w-full sm:w-1/2 h-[390px] bg-white flex flex-col shadow-xl p-5"
+          >
             <h1 className="text-xl sm:text-xl text-[#193E65] font-abelPro font-bold leading-normal mb-2 p-2">
               Blockchain-Based Solutions
             </h1>

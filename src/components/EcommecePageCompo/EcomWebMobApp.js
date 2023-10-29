@@ -27,35 +27,35 @@ const EcomWebMobApp = () => {
               <div className="w-[300px] flex flex-col ">
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Registration process
                   </h3>
                 </div>
                 {/* end 1 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Push Notifications
                   </h3>
                 </div>
                 {/* end 2 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Social media integration
                   </h3>
                 </div>
                 {/* end 3 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Custom branding
                   </h3>
                 </div>
                 {/* end of 4 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Google Analytics
                   </h3>
                 </div>
@@ -65,35 +65,35 @@ const EcomWebMobApp = () => {
               <div className="w-[300px] flex flex-col ">
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Great user experience
                   </h3>
                 </div>
                 {/* end 1 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Wishlist button
                   </h3>
                 </div>
                 {/* end 2 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Rating and feedback
                   </h3>
                 </div>
                 {/* end 3 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Synchronization
                   </h3>
                 </div>
                 {/* end 4 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Easy Checkout
                   </h3>
                 </div>
@@ -122,35 +122,35 @@ const EcomWebMobApp = () => {
               <div className="w-[300px] flex flex-col ">
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Responsive Websites
                   </h3>
                 </div>
                 {/* end 1 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Content Management
                   </h3>
                 </div>
                 {/* end 2 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Products Merchandishing
                   </h3>
                 </div>
                 {/* end 3 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Third-Party-Applications
                   </h3>
                 </div>
                 {/* end 4 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Loyalty Management
                   </h3>
                 </div>
@@ -160,35 +160,35 @@ const EcomWebMobApp = () => {
               <div className="w-[300px] flex flex-col ">
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Flexible Deployment
                   </h3>
                 </div>
                 {/* end 1 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Technical Support
                   </h3>
                 </div>
                 {/* end 2 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Promotion & Pricing
                   </h3>
                 </div>
                 {/* end 3 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Catalogue Management
                   </h3>
                 </div>
                 {/* end 4 */}
                 <div className=" flex flex-row p-2 gap-2 mx-2 justify-start items-center">
                   <div className=" w-3 h-3 rounded-full bg-coralred"></div>
-                  <h3 className="text-lg font-abelPro hover:-translate-y-2 hover:text-deepBlue">
+                  <h3 className="text-lg font-abelPro hover:-translate-y-[1px] hover:text-deepBlue">
                     Product Browsing
                   </h3>
                 </div>

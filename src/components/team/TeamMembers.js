@@ -16,6 +16,8 @@ export const TeamMembers = () => {
       deg={item.deg}
       experience={item.experience}
       tec={item.tech}
+      country={item.country}
+      countryName={item.countryName}
     />
   ));
 
@@ -24,7 +26,7 @@ export const TeamMembers = () => {
       <h1 className=" text-6xl text-center p-10 ">
         <span className=" text-[#ee7324]">Meet</span> Expert Team
       </h1>
-      <div className=" w-[70vw] p-5 ">
+      <div className=" w-[70vw] p-5  ">
         <Carousel
           autoPlay={false}
           autoPlaySpeed={2000}

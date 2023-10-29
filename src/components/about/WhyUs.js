@@ -17,7 +17,7 @@ const WhyUs = () => {
         </div>
         {/* end h1= div ==> */}
         <div className="w-full flex flex-wrap justify-center gap-5">
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
@@ -36,7 +36,7 @@ const WhyUs = () => {
             </p>
           </div>
           {/* end */}
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
@@ -55,7 +55,7 @@ const WhyUs = () => {
             </p>
           </div>
           {/* end */}
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
@@ -74,7 +74,7 @@ const WhyUs = () => {
             </p>
           </div>
           {/* end */}
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
@@ -93,7 +93,7 @@ const WhyUs = () => {
             </p>
           </div>
           {/* end */}
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
@@ -112,7 +112,7 @@ const WhyUs = () => {
           </div>
           {/* end */}
 
-          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-1 hover:bg-[#EE7E2499] ">
+          <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
               src={fintech}
               alt="Icon"
