@@ -52,6 +52,7 @@ import technologyIcon from "../assets/iconsnew/technologyIcon.png";
 import experienceIcon from "../assets/iconsnew/experienceIcon.png";
 // image new
 import whatWeDoWave from "../assets/imagesNew/whatWeDo.png";
+import whatWeDo from "../assets/imagesNew/whatWeDo.png";
 import laptop1 from "../assets/imagesNew/Laptop1.png";
 import buttonImage from "../assets/imagesNew/getIntoutch.png";
 // aboutPage=> vission Image
@@ -236,6 +237,7 @@ import WCD_MobDev from "../assets/imagesNew/monDevMini.svg";
 // => Flag =>
 import malaysia from "../assets/iconsnew/malaysia.png";
 import bangladesh from "../assets/iconsnew/bangladesh.png";
+import japan from "../assets/iconsnew/jp.png";
 
 export {
   Nextlogo,
@@ -349,6 +351,7 @@ export {
   // what we do image
   whatWeDoWave,
   laptop1,
+  whatWeDo,
   // about page
   vissionImg,
   missionImg,
@@ -464,4 +467,5 @@ export {
   // Flag =>
   malaysia,
   bangladesh,
+  japan,
 };

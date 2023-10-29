@@ -22,15 +22,15 @@ const NavbarNew = () => {
   };
 
   const handleSubItemsMouseEnter = () => {
-    setShowSubItems(true);
+    setShowSubItems(!showSubItems);
   };
 
-  const handleSubItemsMouseLeave = () => {
-    // Check if the mouse is outside of the "Industries" section
-    if (!showSubItems) {
-      setShowSubItems(true);
-    }
-  };
+  // const handleSubItemsMouseLeave = () => {
+  //   // Check if the mouse is outside of the "Industries" section
+  //   if (!showSubItems) {
+  //     setShowSubItems(true);
+  //   }
+  // };
 
   return (
     <div className="w-full sticky top-0 z-50 p-2 px-5 bg-bodyColor mx-auto flex justify-between items-center font-adventPro shadow-md">
@@ -46,7 +46,8 @@ const NavbarNew = () => {
       <div className="lg:hidden">
         <button
           className="text-gray-400 hover:text-designColor focus:outline-offset-1"
-          onClick={toggleMenu}>
+          onClick={toggleMenu}
+        >
           <FaBars size={24} />
         </button>
       </div>
@@ -59,7 +60,8 @@ const NavbarNew = () => {
                 className={`text-xl text-[#1C1F35] hover:text-designColor ${
                   activePage === "home" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("home")}>
+                onClick={() => handleMenuClick("home")}
+              >
                 Home
               </NavLink>
             </li>
@@ -69,7 +71,8 @@ const NavbarNew = () => {
                 className={`text-xl text-[#1C1F35] hover:text-designColor ${
                   activePage === "about" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("about")}>
+                onClick={() => handleMenuClick("about")}
+              >
                 About Us
               </NavLink>
             </li>
@@ -83,20 +86,19 @@ const NavbarNew = () => {
                   handleMenuClick("services");
                   // Hide sub-items when Services is clicked
                   setShowSubItems(false);
-                }}>
+                }}
+              >
                 Services
               </NavLink>
             </li>
             {/* industries */}
             <li>
-              <div
-                onMouseEnter={handleSubItemsMouseEnter}
-                onMouseLeave={handleSubItemsMouseLeave}
-                className="relative">
+              <div onClick={handleSubItemsMouseEnter} className="relative">
                 <span
-                  className={`text-xl text-[#1C1F35] hover:text-designColor ${
+                  className={`text-xl text-[#1C1F35] hover:text-designColor cursor-pointer ${
                     activePage === "industries" ? "active" : "none"
-                  }`}>
+                  }`}
+                >
                   Industries
                 </span>
                 {showSubItems && (
@@ -110,7 +112,8 @@ const NavbarNew = () => {
                             handleMenuClick("fintech");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Fintech
                         </NavLink>
                       </li>
@@ -122,7 +125,8 @@ const NavbarNew = () => {
                             handleMenuClick("healthcare");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Healthcare
                         </NavLink>
                       </li>
@@ -134,7 +138,8 @@ const NavbarNew = () => {
                             handleMenuClick("ecommerce");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           E-Commerce
                         </NavLink>
                       </li>
@@ -146,7 +151,8 @@ const NavbarNew = () => {
                             handleMenuClick("education");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Education
                         </NavLink>
                       </li>
@@ -158,7 +164,8 @@ const NavbarNew = () => {
                             handleMenuClick("hospitality");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Hospitality
                         </NavLink>
                       </li>
@@ -170,7 +177,8 @@ const NavbarNew = () => {
                             handleMenuClick("pharmacy");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Pharmacy
                         </NavLink>
                       </li>
@@ -182,7 +190,8 @@ const NavbarNew = () => {
                             handleMenuClick("foodtech");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Foodtech
                         </NavLink>
                       </li>
@@ -194,7 +203,8 @@ const NavbarNew = () => {
                             handleMenuClick("realestate");
                             // Hide sub-items when Services is clicked
                             setShowSubItems(false);
-                          }}>
+                          }}
+                        >
                           Real-Estate
                         </NavLink>
                       </li>
@@ -210,7 +220,8 @@ const NavbarNew = () => {
                 className={`text-xl text-[#1C1F35] hover:text-designColor ${
                   activePage === "contact" ? "active" : "none"
                 }`}
-                onClick={() => handleMenuClick("contact")}>
+                onClick={() => handleMenuClick("contact")}
+              >
                 <button className="bg-[#193E65] text-white px-4 py-2 rounded-full hover:bg-[#EE7E24] duration-500">
                   Get In Touch
                 </button>
@@ -228,7 +239,8 @@ const NavbarNew = () => {
               className={`text-xl text-[#1C1F35] hover:text-designColor ${
                 activePage === "home" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("home")}>
+              onClick={() => handleMenuClick("home")}
+            >
               Home
             </NavLink>
           </li>
@@ -238,7 +250,8 @@ const NavbarNew = () => {
               className={`text-xl text-[#1C1F35] hover:text-designColor ${
                 activePage === "about" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("about")}>
+              onClick={() => handleMenuClick("about")}
+            >
               About Us
             </NavLink>
           </li>
@@ -252,7 +265,8 @@ const NavbarNew = () => {
                 handleMenuClick("services");
                 // Hide sub-items when Services is clicked
                 setShowSubItems(false);
-              }}>
+              }}
+            >
               Services
             </NavLink>
           </li>
@@ -266,20 +280,19 @@ const NavbarNew = () => {
                 handleMenuClick("case");
                 // Hide sub-items when Services is clicked
                 setShowSubItems(false);
-              }}>
+              }}
+            >
               Cases
             </NavLink>
           </li>
           {/* industries */}
           <li>
-            <div
-              onMouseEnter={handleSubItemsMouseEnter}
-              onMouseLeave={handleSubItemsMouseLeave}
-              className="relative">
+            <div onClick={handleSubItemsMouseEnter} className="relative">
               <span
-                className={`text-xl text-[#1C1F35] hover:text-designColor ${
+                className={`text-xl text-[#1C1F35] hover:text-designColor cursor-pointer ${
                   activePage === "industries" ? "active" : "none"
-                }`}>
+                }`}
+              >
                 Industries
               </span>
               {showSubItems && (
@@ -293,7 +306,8 @@ const NavbarNew = () => {
                           handleMenuClick("fintech");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Fintech
                       </NavLink>
                     </li>
@@ -305,7 +319,8 @@ const NavbarNew = () => {
                           handleMenuClick("healthcare");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Healthcare
                       </NavLink>
                     </li>
@@ -317,7 +332,8 @@ const NavbarNew = () => {
                           handleMenuClick("ecommerce");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         E-Commerce
                       </NavLink>
                     </li>
@@ -329,7 +345,8 @@ const NavbarNew = () => {
                           handleMenuClick("education");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Education
                       </NavLink>
                     </li>
@@ -341,7 +358,8 @@ const NavbarNew = () => {
                           handleMenuClick("hospitality");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Hospitality
                       </NavLink>
                     </li>
@@ -353,7 +371,8 @@ const NavbarNew = () => {
                           handleMenuClick("pharmacy");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Pharmacy
                       </NavLink>
                     </li>
@@ -365,7 +384,8 @@ const NavbarNew = () => {
                           handleMenuClick("foodtech");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Foodtech
                       </NavLink>
                     </li>
@@ -377,7 +397,8 @@ const NavbarNew = () => {
                           handleMenuClick("realestate");
                           // Hide sub-items when Services is clicked
                           setShowSubItems(false);
-                        }}>
+                        }}
+                      >
                         Real-Estate
                       </NavLink>
                     </li>
@@ -393,7 +414,8 @@ const NavbarNew = () => {
               className={`text-xl text-[#1C1F35] hover:text-designColor ${
                 activePage === "contact" ? "active" : "none"
               }`}
-              onClick={() => handleMenuClick("contact")}>
+              onClick={() => handleMenuClick("contact")}
+            >
               <button className="bg-[#193E65] text-white px-4 py-2 rounded-full hover:bg-[#EE7E24] duration-500">
                 Get In Touch
               </button>

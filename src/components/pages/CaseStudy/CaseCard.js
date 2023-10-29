@@ -11,12 +11,13 @@ const CaseCard = () => {
         {caseStudy.map((caseStudy, index) => (
           <div
             key={index}
-            className=" xl:w-[45vw] 2xl:w-[45vw] lg:w-[45vw] h-[600px] md:w-[100vw] sm:w-[100vw] max-sm:w-[100vw] flex flex-col justify-center items-center  bg-white shadow-2xl">
+            className=" xl:w-[45vw] 2xl:w-[45vw] lg:w-[45vw] h-[600px] md:w-[100vw] sm:w-[100vw] max-sm:w-[100vw] flex flex-col justify-center items-center  bg-white shadow-2xl"
+          >
             <div className="w-full h-full flex flex-col justify-center items-center ">
               <img
                 src={caseStudy.image}
                 alt=""
-                className="w-full h-full object-cover hover:scale-105"
+                className="w-[90%] h-full object-cover hover:scale-110 transition-all duration-200"
               />
             </div>
             <div className=" flex flex-col justify-center items-center p-2 ">
@@ -54,7 +55,8 @@ const CaseCard = () => {
               </p>
               <a
                 href="/webappdevpage"
-                className="w-[180px]  mb-2 flex flex-row gap-1 justify-center items-center">
+                className="w-[180px]  mb-2 flex flex-row gap-1 justify-center items-center"
+              >
                 <h2 className=" text-lg text-coralred font-bold">Learn more</h2>
                 <img
                   src={learnArrowImg}

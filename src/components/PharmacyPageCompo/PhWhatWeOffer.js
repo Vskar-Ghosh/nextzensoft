@@ -25,7 +25,8 @@ const PhWhatWeOffer = () => {
             ease: "easeIn",
             duration: 2,
           }}
-          className="flex justify-center mt-3 mx-auto">
+          className="flex justify-center mt-3 mx-auto"
+        >
           <h1 className=" max-xl:text-8xl xl:text-7x lg:text-6xl md-text-5xl sm:text-3xl max-sm:text-3xl max-sm:mx-4 text-coralred text-center font-abelPro">
             Applications we can develop <br />
             <span className=" max-xl:text-8xl xl:text-7x lg:text-6xl md-text-5xl sm:text-3xl max-sm:text-3xl text-[#241468] text-center font-abelPro">
@@ -80,7 +81,7 @@ const PhWhatWeOffer = () => {
               <h1 className=" lg:text-3xl max-sm:text-xl sm:text-xl text-deepBlue font-abelPro font-bold  mt-2">
                 Inventory Management Software
               </h1>
-              <p className="text-base font-abelPro mt-3">
+              <p className="text-base font-abelPro mt-3 overflow-hidden">
                 Monitor and share medicine inventory status, order requests, new
                 products, alternate brands, and shipment details. As an online
                 medicine delivery app development company we also implement

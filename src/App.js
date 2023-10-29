@@ -28,10 +28,12 @@ import NodeJsPage from "./components/pages/technologiespages/nodejs/NodeJsPage.j
 import JavaScriptPage from "./components/pages/technologiespages/JavaScript/JavaScriptPage.js";
 import IotPage from "./components/pages/technologiespages/iot/IotPage.js";
 import CasePage from "./components/pages/CaseStudy/CasePage.js";
+import ScrollToTop from "./components/ScrollToTop.js";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="w-full h-auto bg-bodyColor text-lightText">
         <NavbarNew />
         <Routes>
