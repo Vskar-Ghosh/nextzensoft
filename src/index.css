@@ -18,7 +18,7 @@
 }
 @layer components {
   .bannerIcon {
-    @apply w-16 h-16 bg-[#4E5683] bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md  hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+    @apply w-16 h-16 bg-deepBlue bg-opacity-100 text-gray-200 text-xl inline-flex items-center justify-center rounded-md  hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
   }
   .solutionsLi {
     @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;

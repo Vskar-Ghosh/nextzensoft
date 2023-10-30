@@ -20,13 +20,16 @@ const ContactUsLeftInfo = () => {
 
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-2">
-          <img
-            src={c_email}
-            alt=""
-            height={30}
-            width={30}
-            className="rounded-full"
-          />
+          <div className=" w-[40px] h-[40px]  flex flex-col justify-center items-center border-2 border-deepBlue rounded-full">
+            <img
+              src={c_email}
+              alt=""
+              height={30}
+              width={30}
+              className="rounded-full "
+            />
+          </div>
+
           <div>
             <h3 className="text-base md:text-lg font-abelPro font-bold text-[#848484]">
               Email
@@ -38,13 +41,15 @@ const ContactUsLeftInfo = () => {
         </div>
 
         <div className="flex items-center gap-2">
-          <img
-            src={c_call}
-            alt=""
-            height={30}
-            width={30}
-            className="rounded-full"
-          />
+          <div className=" w-[40px] h-[40px] flex flex-col justify-center items-center border-2 border-deepBlue rounded-full">
+            <img
+              src={c_call}
+              alt=""
+              height={30}
+              width={30}
+              className="rounded-full"
+            />
+          </div>
           <div>
             <h3 className="text-base md:text-lg font-abelPro font-bold text-[#848484]">
               Call Us
@@ -56,13 +61,15 @@ const ContactUsLeftInfo = () => {
         </div>
 
         <div className="flex items-center gap-2">
-          <img
-            src={c_clock}
-            alt=""
-            height={30}
-            width={30}
-            className="rounded-full"
-          />
+          <div className=" w-[40px] h-[40px] flex flex-col justify-center items-center border-2 border-deepBlue rounded-full">
+            <img
+              src={c_clock}
+              alt=""
+              height={30}
+              width={30}
+              className="rounded-full"
+            />
+          </div>
           <div>
             <h3 className="text-base md:text-lg font-abelPro font-bold text-[#848484]">
               Monday - Friday

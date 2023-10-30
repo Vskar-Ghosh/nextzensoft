@@ -224,9 +224,9 @@ import jsCompat from "../assets/iconsnew/icon_compact.png";
 import ioT_wewable from "../assets/iconsnew/iotwearable.svg";
 
 // icon new
-import c_call from "../assets/iconsnew/c_call.png";
-import c_email from "../assets/iconsnew/c_email.png";
-import c_clock from "../assets/iconsnew/c_clock.png";
+import c_call from "../assets/iconsnew/contact_cell.svg";
+import c_email from "../assets/iconsnew/cont_email.svg";
+import c_clock from "../assets/iconsnew/contact_clock.svg";
 
 // what we can do =>
 import WCD_Busi from "../assets/imagesNew/busAna.svg";
