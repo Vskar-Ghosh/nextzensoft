@@ -1,6 +1,14 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 import { motion } from "framer-motion";
 
 import {
@@ -12,49 +20,56 @@ import {
 } from "../../assets/index";
 
 const AllServices = () => {
+  useEffect(() => {
+    // Initialize react-scroll
+    scrollSpy.update();
+  }, []);
+
   return (
     <section className="w-full py-3 flex flex-col sm:justify-center items-center  ">
-      <motion.div
-        initial={{ x: 100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{
-          delay: 0.3,
-          x: { type: "spring", stiffness: 60 },
-          opacity: { duration: 1 },
-          ease: "easeIn",
-          duration: 2,
-        }}
-        className="flex flex-col sm:flex-row justify-center p-5 sm:p-10 ">
-        <div className="w-full sm:w-1/2 mx-5 sm:mx-10 p-5">
-          <h1 className="text-3xl sm:text-5xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
-            Custom{" "}
-            <span className="text-3xl sm:text-5xl sm:mx-4 text-[#193E65] font-abelPro font-bold leading-normal">
-              Software Development
-            </span>
-          </h1>
-          <p className="tex-[#999999] font-abelPro leading-normal">
-            We help you create diverse and complex software solutions for your
-            business needs. Listening to your ideas, we implement and create
-            custom software solutions from scratch, designed especially for your
-            business. With Enosis, you get quality software and perfect service
-            every time.
-          </p>
-          <a
-            href="/customsoftwarepage"
-            className="w-[180px]  mb-2 flex flex-row gap-1 items-center">
-            <h2 className=" text-xl text-coralred font-bold">Learn more</h2>
-            <img src={learnArrowImg} alt="" className=" flex  items-center" />
-          </a>
-        </div>
-        {/* end of text */}
-        <div className="w-full sm:w-auto">
-          <img
-            src={customSoftImg}
-            alt=""
-            className="w-[450px] h-[300px] max-xl:skew-y-12 xl:skew-y-12 sm:skew-y-3   mx-auto sm:mx-5 md:mx-5"></img>
-        </div>
-        {/* end of photo */}
-      </motion.div>
+      <Element name="customSoftware" className="element">
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            delay: 0.3,
+            x: { type: "spring", stiffness: 60 },
+            opacity: { duration: 1 },
+            ease: "easeIn",
+            duration: 2,
+          }}
+          className="flex flex-col sm:flex-row justify-center p-5 sm:p-10 ">
+          <div className="w-full sm:w-1/2 mx-5 sm:mx-10 p-5">
+            <h1 className="text-3xl sm:text-5xl text-coralred font-abelPro font-bold leading-normal mb-2 p-2">
+              Custom{" "}
+              <span className="text-3xl sm:text-5xl sm:mx-4 text-[#193E65] font-abelPro font-bold leading-normal">
+                Software Development
+              </span>
+            </h1>
+            <p className="tex-[#999999] font-abelPro leading-normal">
+              We help you create diverse and complex software solutions for your
+              business needs. Listening to your ideas, we implement and create
+              custom software solutions from scratch, designed especially for
+              your business. With Enosis, you get quality software and perfect
+              service every time.
+            </p>
+            <a
+              href="/customsoftwarepage"
+              className="w-[180px]  mb-2 flex flex-row gap-1 items-center">
+              <h2 className=" text-xl text-coralred font-bold">Learn more</h2>
+              <img src={learnArrowImg} alt="" className=" flex  items-center" />
+            </a>
+          </div>
+          {/* end of text */}
+          <div className="w-full sm:w-auto">
+            <img
+              src={customSoftImg}
+              alt=""
+              className="w-[450px] h-[300px] max-xl:skew-y-12 xl:skew-y-12 sm:skew-y-3   mx-auto sm:mx-5 md:mx-5"></img>
+          </div>
+          {/* end of photo */}
+        </motion.div>
+      </Element>
 
       {/* end of custom */}
 

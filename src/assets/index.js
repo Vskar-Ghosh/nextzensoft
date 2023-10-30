@@ -239,6 +239,13 @@ import malaysia from "../assets/iconsnew/malaysia.png";
 import bangladesh from "../assets/iconsnew/bangladesh.png";
 import japan from "../assets/iconsnew/jp.png";
 
+// animationa =>
+
+import softDevAni from "../assets/lottieFiles/softwareDev.json";
+import webDevAni from "../assets/lottieFiles/webDev.json";
+import mobDevAni from "../assets/lottieFiles/mobileAppDev.json";
+import digitaltTransAni from "../assets/lottieFiles/digitalTranformation.json";
+
 export {
   Nextlogo,
   logo,
@@ -468,4 +475,10 @@ export {
   malaysia,
   bangladesh,
   japan,
+
+  // animations =>
+  softDevAni,
+  webDevAni,
+  mobDevAni,
+  digitaltTransAni,
 };

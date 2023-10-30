@@ -30,6 +30,7 @@ module.exports = {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },
       backgroundImage: {
+        homePageBg: "url('assets/imagesNew/homePageBg.svg')",
         aboutHeroBg: "url('assets/imagesNew/aboutbg.svg')",
         customerWorldWide: "url('assets/imagesNew/customer_worldwide.svg')",
         servicesBg: "url('assets/imagesNew/servicebg.svg')",
