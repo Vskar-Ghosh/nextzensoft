@@ -1,7 +1,15 @@
 /** @format */
 
 import React from "react";
-import { fintech } from "../../assets/index.js";
+import {
+  fintech,
+  resultBasedImg,
+  flexibleImg,
+  transparentImg,
+  experienceImg,
+  top_q_eImg,
+  end_to_endImg,
+} from "../../assets/index.js";
 
 const WhyUs = () => {
   return (
@@ -19,10 +27,10 @@ const WhyUs = () => {
         <div className="w-full flex flex-wrap justify-center gap-5">
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={resultBasedImg}
               alt="Icon"
-              height={50}
-              width={50}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
@@ -38,10 +46,10 @@ const WhyUs = () => {
           {/* end */}
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={flexibleImg}
               alt="Icon"
-              height={60}
-              width={60}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
@@ -57,10 +65,10 @@ const WhyUs = () => {
           {/* end */}
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={transparentImg}
               alt="Icon"
-              height={60}
-              width={60}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
@@ -76,10 +84,10 @@ const WhyUs = () => {
           {/* end */}
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={experienceImg}
               alt="Icon"
-              height={60}
-              width={60}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 mt-3">
@@ -95,10 +103,10 @@ const WhyUs = () => {
           {/* end */}
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={top_q_eImg}
               alt="Icon"
-              height={50}
-              width={50}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 ">
@@ -114,10 +122,10 @@ const WhyUs = () => {
 
           <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[280px] rounded-xl shadow-2xl p-3 hover:translate-y-2 hover:bg-[#EE7E2499] transition-all duration-200 delay-100 ">
             <img
-              src={fintech}
+              src={end_to_endImg}
               alt="Icon"
-              height={50}
-              width={50}
+              height={80}
+              width={80}
               className="rounded-full bg-coralred"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-2 hover:text-coralred ">

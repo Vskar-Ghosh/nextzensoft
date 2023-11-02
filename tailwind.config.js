@@ -47,6 +47,13 @@ module.exports = {
         ioTBG: "url('assets/imagesNew/iot.jpg')",
         ioTBGThree: "url('assets/imagesNew/iotBg3.jpg')",
         getIntoutchBG: "url('assets/imagesNew/tttt.jpg')",
+        careerPagehBG: "url('assets/imagesNew/carrer1.jpg')",
+        // office bg
+        dhakaOfcehBG: "url('assets/imagesNew/bgPerliment.jpeg')",
+        nyBG: "url('assets/imagesNew/ny.jpg')",
+        ohioBG: "url('assets/imagesNew/ohio.jpg')",
+        klBG: "url('assets/imagesNew/kl.jpg')",
+        ansburgBG: "url('assets/imagesNew/burlin.jpg')",
 
         // technologies bg
         javaBG: "url('assets/TechImages/javaBg.jpg')",

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { c_call, c_email, c_clock } from "../../assets/index";
+import { c_call, c_email, c_clock, c_email1 } from "../../assets/index";
 import { contactImg } from "../../assets/index";
 
 const ContactUsLeftInfo = () => {

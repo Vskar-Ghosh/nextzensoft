@@ -15,10 +15,21 @@ import vaskarTest from "./images/testmonial/vaskar.jpg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 // import videoOne from "./videos/vi1.mp4";
+
 // teamMemeber sample=>
-import tmSample from "./images/sample1.png";
-import ibnul from "./images/team/ibnulReplacet.jpg";
+import dummyPhoto from "./images/team/dummyAvater.png";
+import salim from "./images/team/salim.jpg";
+import sabbirRahman from "./images/team/sabbir.jpg";
+import ibnul from "./images/team/ibnul.jpeg";
 import kamal from "./images/team/pk.png";
+import asrafAli from "./images/team/asraf.jpg";
+import likhon from "./images/team/likhon.jpeg";
+import showrav from "./images/team/pk.png";
+import vaskar from "./images/team/vaskar.jpg";
+import samiurRahman from "./images/team/samiurRahman.jpeg";
+import mukit from "./images/team/pk.png";
+import ashikurRakhman from "./images/team/pk.png";
+
 // heroes
 import banner1 from "./images/bannerOne.png";
 import sabbirSir from "./images/sabbirSir.gif";
@@ -58,6 +69,15 @@ import buttonImage from "../assets/imagesNew/getIntoutch.png";
 // aboutPage=> vission Image
 import vissionImg from "../assets/imagesNew/vissionImg.png";
 import missionImg from "../assets/imagesNew/missionImg.png";
+import valuesImg from "../assets/imagesNew/values.png";
+// aboutPage=> why_Us images
+import resultBasedImg from "../assets/imagesNew/result.svg";
+import flexibleImg from "../assets/imagesNew/flexible.svg";
+import transparentImg from "../assets/imagesNew/transparent.jpg";
+import experienceImg from "../assets/imagesNew/experience.svg";
+import top_q_eImg from "../assets/imagesNew/top_q_engi.jpg";
+import end_to_endImg from "../assets/imagesNew/endToend.svg";
+
 //=> services pag
 import whatWeOfferImg from "../assets/imagesNew/what_we_offer.svg";
 import customSoftImg from "../assets/imagesNew/customsoftware.png";
@@ -227,6 +247,28 @@ import ioT_wewable from "../assets/iconsnew/iotwearable.svg";
 import c_call from "../assets/iconsnew/contact_cell.svg";
 import c_email from "../assets/iconsnew/cont_email.svg";
 import c_clock from "../assets/iconsnew/contact_clock.svg";
+import c_email1 from "../assets/iconsnew/email.png";
+
+// => career benifits icons
+import car_stEmp from "../assets/icons/careerbenifits/Stable-Employment.svg";
+import car_salry from "../assets/icons/careerbenifits/high-salary.svg";
+import car_workH from "../assets/icons/careerbenifits/flexible-working-hours.svg";
+import car_remoteWrk from "../assets/icons/careerbenifits/Remote-work.svg";
+import car_englishC from "../assets/icons/careerbenifits/english-lessons.svg";
+import car_mentoring from "../assets/icons/careerbenifits/Mentoring-Program.svg";
+import car_ltSoftware from "../assets/icons/careerbenifits/Latest-Software.svg";
+import car_trip from "../assets/icons/careerbenifits/Trips-to-confrences.svg";
+import car_int_traing from "../assets/icons/careerbenifits/Internal-training.svg";
+import car_int_resource from "../assets/icons/careerbenifits/internal-library.svg";
+import car_healtcare from "../assets/icons/careerbenifits/Private-medical.svg";
+import car_G_work from "../assets/icons/careerbenifits/great-workplace.svg";
+
+// career job process
+import car_Job_searce from "../assets/icons/job-search.png";
+import car_call from "../assets/icons/car_call.png";
+import car_interview from "../assets/icons/car_interview.png";
+import car_flowUp from "../assets/icons/car_flow_up.png";
+import car_Job_offer from "../assets/icons/job-offer.png";
 
 // what we can do =>
 import WCD_Busi from "../assets/imagesNew/busAna.svg";
@@ -245,6 +287,8 @@ import softDevAni from "../assets/lottieFiles/softwareDev.json";
 import webDevAni from "../assets/lottieFiles/webDev.json";
 import mobDevAni from "../assets/lottieFiles/mobileAppDev.json";
 import digitaltTransAni from "../assets/lottieFiles/digitalTranformation.json";
+import cloudServiceAni from "../assets/lottieFiles/cloud.json";
+import productDevAni from "../assets/lottieFiles/productDev.svg";
 
 export {
   Nextlogo,
@@ -261,9 +305,7 @@ export {
   sabbirTest,
   salimTest,
   vaskarTest,
-  tmSample,
-  ibnul,
-  kamal,
+
   // vodeos
 
   // aboutImages
@@ -272,6 +314,13 @@ export {
   aboutHeroImage,
   software1,
   development,
+  // aboutPage=> why_Us images
+  resultBasedImg,
+  flexibleImg,
+  transparentImg,
+  experienceImg,
+  top_q_eImg,
+  end_to_endImg,
 
   //ServicesPage
   whatWeOfferImg,
@@ -314,6 +363,7 @@ export {
   c_call,
   c_email,
   c_clock,
+  c_email1,
   //=> technology
   nodeJs,
   java,
@@ -362,6 +412,7 @@ export {
   // about page
   vissionImg,
   missionImg,
+  valuesImg,
 
   // button image
   buttonImage,
@@ -481,4 +532,40 @@ export {
   webDevAni,
   mobDevAni,
   digitaltTransAni,
+  cloudServiceAni,
+  productDevAni,
+
+  //team members
+  dummyPhoto,
+  salim,
+  sabbirRahman,
+  kamal,
+  asrafAli,
+  likhon,
+  showrav,
+  vaskar,
+  samiurRahman,
+  mukit,
+  ashikurRakhman,
+  ibnul,
+
+  // => career benifits icons
+  car_stEmp,
+  car_salry,
+  car_workH,
+  car_remoteWrk,
+  car_englishC,
+  car_mentoring,
+  car_ltSoftware,
+  car_trip,
+  car_int_traing,
+  car_int_resource,
+  car_healtcare,
+  car_G_work,
+  // requiremnet
+  car_Job_searce,
+  car_call,
+  car_interview,
+  car_flowUp,
+  car_Job_offer,
 };

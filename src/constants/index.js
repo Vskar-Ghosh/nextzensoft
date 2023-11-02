@@ -99,27 +99,27 @@ export const industries = [
 export const caseStudy = [
   {
     image: require("../assets/caseStudies/case2.svg").default,
-    title: "Advanced Integrations for Interactive Workout Application",
+    title: "How to Build an MVP for a SaaS Startup",
     miniDes:
-      "Read how our Node.js development team helped interactive Fitness and Workout App add new complex integrations",
+      "In today’s digital age, Software as a Service (SaaS) has become a prevalent way to access and use software.",
   },
   {
     image: require("../assets/caseStudies/case1.svg").default,
-    title: "Advanced Integrations for Interactive Workout Application",
+    title: "How to Build Home Design App in 2023",
     miniDes:
-      "Read how our Node.js development team helped interactive Fitness and Workout App add new complex integrations",
+      "Are you ready to move your dream home or build home design app? But when you go with the old…",
   },
   {
     image: require("../assets/caseStudies/case1.svg").default,
-    title: "Advanced Integrations for Interactive Workout Application",
+    title: "How to Build an App Like VN: Video Editor & Maker App",
     miniDes:
-      "Read how our Node.js development team helped interactive Fitness and Workout App add new complex integrations",
+      "There is no doubt that video editing applications are the spotlight in today’s technology world because videos are powerful and…",
   },
   {
     image: require("../assets/caseStudies/case1.svg").default,
-    title: "Advanced Integrations for Interactive Workout Application",
+    title: "Are you looking for the best way to launch your start-up idea?",
     miniDes:
-      "Read how our Node.js development team helped interactive Fitness and Workout App add new complex integrations",
+      "Many successful projects we built firstly started as an MVP (minimum viable product).",
   },
 ];
 

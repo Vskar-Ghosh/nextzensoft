@@ -8,6 +8,8 @@ import {
   webDevAni,
   mobDevAni,
   digitaltTransAni,
+  cloudServiceAni,
+  productDevAni,
 } from "../../assets/index.js";
 
 const OurServices = () => {
@@ -176,7 +178,7 @@ const OurServices = () => {
             className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
             <Lottie
               loop={true}
-              animationData={digitaltTransAni}
+              animationData={cloudServiceAni}
               className=" w-full h-[180px] bg-black justify-center items-center"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 ">
@@ -203,9 +205,9 @@ const OurServices = () => {
               duration: 2,
             }}
             className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
-            <Lottie
-              loop={true}
-              animationData={digitaltTransAni}
+            <img
+              src={productDevAni}
+              alt=""
               className=" w-full h-[180px] bg-black justify-center items-center"
             />
             <h2 className="font-abelPro text-2xl text-[#193E65] font-bold p-1 hover:text-coralred ">

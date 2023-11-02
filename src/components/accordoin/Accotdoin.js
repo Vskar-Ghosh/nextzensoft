@@ -6,7 +6,7 @@ import { Collapse } from "react-collapse";
 
 const Accotdoin = ({ open, toggle, title, desc }) => {
   return (
-    <div className="mt-5 md:mt-5 bg-white shadow-2xl rounded-lg">
+    <div className="mt-5 md:mt-5  shadow-2xl rounded-lg bg-white">
       <div
         className="py-3 md:py-5 px-3 md:px-5 flex justify-between items-center cursor-pointer"
         onClick={toggle}>

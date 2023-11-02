@@ -29,6 +29,7 @@ import JavaScriptPage from "./components/pages/technologiespages/JavaScript/Java
 import IotPage from "./components/pages/technologiespages/iot/IotPage.js";
 import CasePage from "./components/pages/CaseStudy/CasePage.js";
 import ScrollToTop from "./components/ScrollToTop.js";
+import CareerPage from "./components/careers/CareerPage.js";
 
 function App() {
   return (
@@ -64,6 +65,8 @@ function App() {
           <Route path="/nodejs" element={<NodeJsPage />} />
           <Route path="/javascript" element={<JavaScriptPage />} />
           <Route path="/iot" element={<IotPage />} />
+          {/* careerpage   */}
+          <Route path="/careerpage" element={<CareerPage />} />
         </Routes>
 
         <Footer />

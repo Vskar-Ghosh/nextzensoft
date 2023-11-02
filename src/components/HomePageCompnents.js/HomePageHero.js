@@ -9,8 +9,8 @@ const HomePageHero = () => {
     <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-homePageBg mb-10">
       <div className="w-full relative">
         <Wave
-          fill="#EE7E24"
-          fillOpacity=".9"
+          fill="#2e90e5"
+          fillOpacity=".5"
           paused={false}
           style={{ display: "flex" }}
           options={{
@@ -23,7 +23,8 @@ const HomePageHero = () => {
         />
         <div className="absolute top-0 left-0 w-full sm:w-1/2 h-full flex flex-col items-center sm:items-start justify-center sm:ml-20 text-[#FFFFFF]">
           <h1 className="text-4xl sm:text-5xl font-abelPro font-bold text-center sm:text-left">
-            NextGen Soft - Your trusted Software Development Partner
+            Elite Software Development Company To Build The Dreams For Next
+            Generation.
           </h1>
           <p className="font-abelPro text-[#FFFFFF] leading-normal text-center sm:text-left">
             We're here to accompany you all along the road from an MVP to

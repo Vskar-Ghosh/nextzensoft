@@ -2,7 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { vissionImg, missionImg } from "../../../assets/index";
+import { FcApproval, FcRight } from "react-icons/fc";
+import { vissionImg, missionImg, valuesImg } from "../../../assets/index";
 import { BrowserRouterasRouter } from "react-router-dom";
 
 const MissionVissionComponent = () => {
@@ -99,21 +100,43 @@ const MissionVissionComponent = () => {
               Values
             </span>
           </h1>
-          <p className="tex-[#999999] font-abelPro leading-normal">
-            Our global approach opens the doors to the best talent worldwide,
-            and our culture of continuous learning and sharing fosters growth
-            and innovation. We help you create diverse and complex software
-            solutions for your business needs. Listening to your ideas, we
-            implement and create custom software solutions from scratch,
-            designed especially for your business. With Enosis, you get quality
-            software and perfect service every time. Our global approach opens
-            the doors to the best talent worldwide, and our culture of
-            continuous learning and sharing fosters growth and innovation.
-          </p>
+          <div className="flex flex-col justify-start items-start p-2 gap-2">
+            <div className="flex flex-row gap-2 items-start">
+              <p className="text-[#999999] font-abelPro leading-normal">
+                Our spirit of innovation keeps us motivated and constantly
+                nudges us towards upgrading our skills to serve our clients
+                better.
+              </p>
+            </div>
+            {/* end 1 */}
+            <div className="flex flex-row gap-2 items-start">
+              <p className="text-[#999999] font-abelPro leading-normal">
+                Our sense of commitment empowers us to create technological
+                solutions that truly serve our clients.
+              </p>
+            </div>
+            {/* end 2 */}
+            <div className="flex flex-row gap-2 items-start">
+              <p className="text-[#999999] font-abelPro leading-normal">
+                As we are always in pursuit of excellence, we extend our
+                limitations with an open mind to work with any tech stacks and
+                app development methods.
+              </p>
+            </div>
+            {/* end 3 */}
+            <div className="flex flex-row gap-2 items-start">
+              <p className="text-[#999999] font-abelPro leading-normal">
+                We are constantly endeavoring to create a community of IT
+                experts and businesses to nurture an everlasting ecosystem of
+                sustainable and holistic prosperity.
+              </p>
+            </div>
+            {/* end 4 */}
+          </div>
         </div>
         {/* end of text */}
         <div>
-          <img src={vissionImg} alt="" height={400} width={400}></img>
+          <img src={valuesImg} alt="" height={400} width={400}></img>
         </div>
         {/* end of photo */}
       </motion.div>

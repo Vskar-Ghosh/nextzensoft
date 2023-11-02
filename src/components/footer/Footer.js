@@ -75,13 +75,14 @@ const Footer = () => {
                 <span className="w-full h-[1px] bg-coralred inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
             </li>
-
-            <li>
-              <span className="w-full text-lg md:text-xl relative hover:text-coralred duration-300 group cursor-pointer">
-                Blog
-                <span className="w-full h-[1px] bg-coralred inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-              </span>
-            </li>
+            <a href="/careerpage" rel="noopener noreferrer">
+              <li>
+                <span className="w-full text-lg md:text-xl relative hover:text-coralred duration-300 group cursor-pointer">
+                  Career
+                  <span className="w-full h-[1px] bg-coralred inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+                </span>
+              </li>
+            </a>
           </ul>
         </div>
         {/* End Of Quick */}
@@ -174,14 +175,14 @@ const Footer = () => {
               </li>
             </a>
             {/* end  */}
-            <a href="/blockchain" rel="noopener noreferrer">
+            {/* <a href="/blockchain" rel="noopener noreferrer">
               <li>
                 <span className="w-full text-lg md:text-xl relative hover:text-coralred duration-300 group cursor-pointer">
                   Blockchain
                   <span className="w-full h-[1px] bg-coralred inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
                 </span>
               </li>
-            </a>
+            </a> */}
             {/* end */}
           </ul>
         </div>

@@ -23,16 +23,16 @@ export const TeamMembers = () => {
 
   return (
     <section className="w-full p-10 flex flex-col items-center justify-center ">
-      <h1 className=" text-6xl text-center p-10 ">
-        <span className=" text-[#ee7324]">Meet</span> Expert Team
+      <h1 className=" text-6xl text-deepBlue font-abelPro font-bold text-center p-10 ">
+        <span className=" text-[#ee7324] font-abelPro font-bold">Meet</span>{" "}
+        Expert Team
       </h1>
       <div className=" w-[70vw] p-5  ">
         <Carousel
           autoPlay={false}
           autoPlaySpeed={2000}
           infinite={true}
-          responsive={responsive}
-        >
+          responsive={responsive}>
           {developbr}
         </Carousel>
       </div>

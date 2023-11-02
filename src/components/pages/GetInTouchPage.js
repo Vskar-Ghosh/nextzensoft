@@ -7,11 +7,11 @@ import { malaysia, bangladesh } from "../../assets/index";
 
 const GetInTouchPage = () => {
   return (
-    <section className="w-full justify-center py-0 ">
+    <section className="w-full flex flex-col justify-center items-center py-0 ">
       <div className="w-full h-[100vh] flex flex-col justify-end items-end relative bg-getIntoutchBG ">
         <div className="w-full relative">
           <Wave
-            fill="#255a78"
+            fill="#7eb1ef"
             fillOpacity=".4"
             paused={false}
             style={{ display: "flex" }}
@@ -46,7 +46,7 @@ const GetInTouchPage = () => {
 
       {/* end of hero section component */}
 
-      <div className="flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 p-9">
+      <div className="flex flex-col items-center justify-center  p-3">
         <div className="mb-[50px]">
           <h1 className="text-6xl p-4 mt-5 mb-5 font-abelPro font-bold text-coralred">
             Our Global{" "}
@@ -56,167 +56,107 @@ const GetInTouchPage = () => {
           </h1>{" "}
         </div>
 
-        <div className="w-full p-3 lg:flex-row xl:flex-row flex flex-row flex-row-3 sm:flex-col max-sm:flex-col justify-center items-center gap-5 mt-10">
-          <div className="w-[350px] h-[240px] flex flex-col justify-start items-start p-4 shadow-lg rounded-md transform -translate-x-30 -translate-y-12 bg-gray-200">
-            <div className="flex flex-row justify-around items-center gap-[140px] p-2 mb-3">
-              <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-                Bangladesh Office
-              </h1>
+        <div className="w-full grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 max-sm:grid-cols-1 justify-center items-center gap-5 mt-5">
+          <div className=" w-[300px] h-[300px] relative bg-cover bg-center   bg-dhakaOfcehBG rounded-xl hover:scale-105">
+            <div className="absolute inset-0 bg-opacity-50 bg-[#1476f2] rounded-xl "></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
+              <div className="flex flex-row p-2">
+                <h1 className="text-4xl text-white font-semibold mt-3">
+                  Dhaka Office
+                </h1>
+                <img src="" alt="" className="" />
+              </div>
 
-              <img src={bangladesh} alt="" className=" w-[45px] h-[45px]" />
+              <p className="text-xs">
+                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+              </p>
+              <p className="text-xs mb-1">Bangladesh</p>
+              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              1/B Thamina Bhaban
-            </h3>
-            <p> Mazr Road Mirpur 1, Dhaka 1216,</p>
-            <p>Bangladesh</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
           </div>
+          {/* end 1 */}
 
-          <div className="w-[350px] h-[280px] flex flex-col justify-start items-start p-4 bg-black shadow-lg rounded-md">
-            <div className="flex flex-row justify-around items-center gap-[140px] p-2 mb-3">
-              <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-                Malaysia Office
-              </h1>
+          <div className=" w-[300px] h-[300px] relative bg-cover bg-center   bg-nyBG rounded-xl hover:scale-105">
+            <div className="absolute inset-0 bg-opacity-50 bg-[#1476f2] rounded-xl "></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
+              <div className="flex flex-row p-2">
+                <h1 className="text-4xl text-white font-semibold mt-3">
+                  New York
+                </h1>
+                <img src="" alt="" className="" />
+              </div>
 
-              <img src={malaysia} alt="" className=" w-[45px] h-[45px]" />
+              <p className="text-xs">
+                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+              </p>
+              <p className="text-xs mb-1">Bangladesh</p>
+              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
             </div>
-
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              Würzburger Landstraße 28
-            </h3>
-            <p>Würzburger Landstraße 28, 91522 Ansbach</p>
-            <p>Germany</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
-          </div>
-          <div className="w-[350px] h-[280px] flex flex-col justify-start items-start p-4 shadow-lg rounded-md transform -translate-x-30 -translate-y-12 mt-[30px]">
-            <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-              Garman Office
-            </h1>
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              Würzburger Landstraße 28
-            </h3>
-            <p>Würzburger Landstraße 28, 91522 Ansbach</p>
-            <p>Germany</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
-          </div>
-        </div>
-        {/* firstrow */}
-        <div className="w-full p-3 lg:flex-row xl:flex-row flex flex-row flex-row-3 sm:flex-col max-sm:flex-col justify-center items-center gap-3 mt-50">
-          <div className="w-[350px] h-[250px] flex flex-col justify-start items-start p-4 shadow-lg rounded-md">
-            <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-              New York Office
-            </h1>
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              Würzburger Landstraße 28
-            </h3>
-            <p>Würzburger Landstraße 28, 91522 Ansbach</p>
-            <p>Germany</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
-          </div>
-          <div className="w-[350px] h-[240px] flex flex-col justify-start items-start p-4 shadow-lg rounded-md">
-            <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-              Michigan Office
-            </h1>
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              Würzburger Landstraße 28
-            </h3>
-            <p>Würzburger Landstraße 28, 91522 Ansbach</p>
-            <p>Germany</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
           </div>
 
-          <div className="w-[350px] h-[240px] flex flex-col justify-start items-start p-4 shadow-lg rounded-md">
-            <h1 className="text-xl font-abelPro font-bold text-coralred mb-2">
-              Michigan Office
-            </h1>
-            <h3 className="text-[#241468] font-abelPro font-bold">
-              Würzburger Landstraße 28
-            </h3>
-            <p>Würzburger Landstraße 28, 91522 Ansbach</p>
-            <p>Germany</p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Email:{" "}
-              </span>
-              infogarmanoffice@nextzensoft.com
-            </p>
-            <p>
-              {" "}
-              <span className="font-abelPro font-bold text-[#241468]">
-                Phone:
-              </span>{" "}
-              +4917684035253
-            </p>
+          {/* end of 2 */}
+
+          <div className=" w-[300px] h-[300px] relative bg-cover bg-center   bg-ohioBG rounded-xl hover:scale-105">
+            <div className="absolute inset-0 bg-opacity-50 bg-[#1476f2] rounded-xl "></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
+              <div className="flex flex-row p-2">
+                <h1 className="text-4xl text-white font-semibold mt-3">Ohio</h1>
+                <img src="" alt="" className="" />
+              </div>
+
+              <p className="text-xs">
+                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+              </p>
+              <p className="text-xs mb-1">Bangladesh</p>
+              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
+            </div>
           </div>
+          {/* end 3 */}
+          <div className=" w-[300px] h-[300px] relative bg-cover bg-center   bg-klBG rounded-xl hover:scale-105">
+            <div className="absolute inset-0 bg-opacity-50 bg-[#1476f2] rounded-xl "></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
+              <div className="flex flex-row p-2">
+                <h1 className="text-4xl text-white font-semibold mt-3">
+                  Kualalumpur
+                </h1>
+                <img src="" alt="" className="" />
+              </div>
+
+              <p className="text-xs">
+                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+              </p>
+              <p className="text-xs mb-1">Bangladesh</p>
+              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
+            </div>
+          </div>
+
+          {/* end 4 */}
+          <div className=" w-[300px] h-[300px] relative bg-cover bg-center   bg-ansburgBG rounded-xl hover:scale-105">
+            <div className="absolute inset-0 bg-opacity-50 bg-[#1476f2] rounded-xl "></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-4xl font-semibold">
+              <div className="flex flex-row p-2">
+                <h1 className="text-4xl text-white font-semibold mt-3">
+                  Ansbach
+                </h1>
+                <img src="" alt="" className="" />
+              </div>
+
+              <p className="text-xs">
+                1/B Thamina Bhaban, Mirpur 1, Dhaka 1216,
+              </p>
+              <p className="text-xs mb-1">Bangladesh</p>
+              <p className="text-xs mb-1">Cell: 008801991-730274</p>
+              <p className="text-xs">Email: info.zextzensoft@nextzensoft.com</p>
+            </div>
+          </div>
+
+          {/* end 5 */}
         </div>
-        {/* end of second row */}
+        {/* ---- */}
       </div>
       {/* ofices */}
 

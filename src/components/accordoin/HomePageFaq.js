@@ -15,7 +15,7 @@ const HomePageFaq = () => {
   };
 
   return (
-    <section className="h-[100vh] md:h-[100vh] flex flex-col justify-center items-center py-30 mt-20 p-5  ">
+    <section className="h-[100vh] md:h-[100vh] flex flex-col justify-center items-center py-10 mt-20 p-5  ">
       <h1 className="text-6xl max-sm:text-3xl sm:text-4xl md:text-5xl xl:text-6xl max-xl:text-7xl max-sm:mx-3 font-abelPro font-bold text-coralred mb-0">
         Quick Answers to{" "}
         <span className="text-4xl max-sm:text-3xl sm:text-4xl md:text-5xl xl:text-6xl max-xl:text-6xl font-abelPro font-bold text-[#241468]">
