@@ -27,7 +27,7 @@ const MissionVissionComponent = () => {
               Vission
             </span>
           </h1>
-          <p className="tex-[#999999] font-abelPro leading-normal">
+          <p className="tex-[#999999]  font-abelPro leading-normal">
             At Nextzensoft , we believe the promise of technology is
             boundless,but complicated with technical jargon and unknowns.We aim
             to simplify complex operations , create meaningful user
