@@ -14,7 +14,7 @@ import WhyUs from "../about/WhyUs.js";
 const AboutPage = () => {
   return (
     <section className="w-full justify-center py-0 ">
-      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-aboutHeroBg mb-10">
+      <div className="w-full h-[100vh] flex flex-col justify-end items-end bg-aboutHeroBg ">
         <div className="w-full   relative">
           <Wave
             fill="#C1250399"

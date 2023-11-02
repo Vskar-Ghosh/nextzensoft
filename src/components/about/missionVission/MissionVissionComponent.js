@@ -19,7 +19,7 @@ const MissionVissionComponent = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="flex flex-row justify-center p-10">
+        className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-center p-10">
         <div className="w-1/2 flex flex-col  justify-center  mx-10 p-5 ">
           <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
             Our{" "}
