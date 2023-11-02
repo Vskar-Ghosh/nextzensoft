@@ -36,7 +36,8 @@ const OurServices = () => {
     <section
       key={refresh}
       ref={servicesRef}
-      className="w-full  py-5 mt-20 mb-5 items-center ">
+      className="w-full  py-5 mt-20 mb-5 items-center "
+    >
       <div className="w-full flex flex-col ">
         <div className="p-5 flex justify-center">
           <h1 className="text-5xl text-coralred font-abelPro font-bold leading-normal">
@@ -58,7 +59,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={softDevAni}
@@ -87,7 +89,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={webDevAni}
@@ -116,7 +119,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={mobDevAni}
@@ -145,7 +149,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={digitaltTransAni}
@@ -175,7 +180,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <Lottie
               loop={true}
               animationData={cloudServiceAni}
@@ -204,7 +210,8 @@ const OurServices = () => {
               ease: "easeIn",
               duration: 2,
             }}
-            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl ">
+            className=" flex flex-col  w-full md:w-1/2 lg:w-1/4 xl:w-1/4 h-[380px] rounded-xl shadow-2xl "
+          >
             <img
               src={productDevAni}
               alt=""
